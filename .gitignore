@@ -1,8 +1,5 @@
-.env
-.env.*
-target/
-*.sqlite
-*.db
-*.log
-secrets/
-credentials/
+/target
+*.tmp
+__pycache__/
+# third-party dataset downloads (scripts/fetch_dataset.sh); never commit
+/data/

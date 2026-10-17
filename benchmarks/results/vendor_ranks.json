@@ -1,0 +1,3858 @@
+{
+ "summary": {
+  "buckets": [
+   {
+    "bucket": "hit: rank-v1 top 20",
+    "count": 0
+   },
+   {
+    "bucket": "ranking_failure: Active, scored, rank > 20",
+    "count": 47
+   },
+   {
+    "bucket": "ranking_failure: Active but rank-v1 score 0",
+    "count": 0
+   },
+   {
+    "bucket": "population_exclusion: status != Active (scorers rank Active only)",
+    "count": 14
+   }
+  ],
+  "recall_at": [
+   {
+    "denominator_active": 47,
+    "denominator_all": 61,
+    "k": 20,
+    "v1_hits": 0,
+    "v2_hits": 2
+   },
+   {
+    "denominator_active": 47,
+    "denominator_all": 61,
+    "k": 50,
+    "v1_hits": 2,
+    "v2_hits": 6
+   },
+   {
+    "denominator_active": 47,
+    "denominator_all": 61,
+    "k": 100,
+    "v1_hits": 4,
+    "v2_hits": 11
+   },
+   {
+    "denominator_active": 47,
+    "denominator_all": 61,
+    "k": 250,
+    "v1_hits": 19,
+    "v2_hits": 22
+   },
+   {
+    "denominator_active": 47,
+    "denominator_all": 61,
+    "k": 500,
+    "v1_hits": 27,
+    "v2_hits": 35
+   },
+   {
+    "denominator_active": 47,
+    "denominator_all": 61,
+    "k": 1000,
+    "v1_hits": 38,
+    "v2_hits": 38
+   }
+  ],
+  "v1_highest_ranked_vendor": {
+   "rank": 36,
+   "score": 30,
+   "slug": "open"
+  },
+  "v1_population_scored": 3595,
+  "v2_population_scored": 3113,
+  "vendors_active": 47,
+  "vendors_total": 61
+ },
+ "v2_highest_ranked_vendor": {
+  "rank": 1,
+  "slug": "brownie"
+ },
+ "vendors": [
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "label_reason": "AI customer support platform",
+   "slug": "open",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 6,
+     "term": "generative ai"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "devtools",
+     "field": "industries",
+     "points": 3,
+     "term": "engineering product and design"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "one_liner",
+     "points": 2,
+     "term": "enterprise"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 36,
+   "v1_score": 30,
+   "v1_support_points": 12,
+   "v2_rank": 63,
+   "v2_score": 25
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "one_liner",
+     "match": "call centers"
+    },
+    {
+     "field": "long_description",
+     "match": "call centers"
+    },
+    {
+     "field": "long_description",
+     "match": "support agents"
+    }
+   ],
+   "label_reason": "AI support reps for call centers",
+   "slug": "calltree",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 6,
+     "term": "generative ai"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "one_liner",
+     "points": 2,
+     "term": "enterprise"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 2,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 44,
+   "v1_score": 29,
+   "v1_support_points": 8,
+   "v2_rank": 27,
+   "v2_score": 28
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "Support Agents"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "support teams"
+    }
+   ],
+   "label_reason": "AI support agents for support teams",
+   "slug": "duckie",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 2,
+     "term": "ai agents"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 6,
+     "term": "generative ai"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "devtools",
+     "field": "industries",
+     "points": 3,
+     "term": "engineering product and design"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 55,
+   "v1_score": 28,
+   "v1_support_points": 9,
+   "v2_rank": 31,
+   "v2_score": 28
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    }
+   ],
+   "label_reason": "AI agents resolving support tickets",
+   "slug": "fini",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 6,
+     "term": "machine learning"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 4,
+     "term": "ai agents"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 6,
+     "term": "generative ai"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "devtools",
+     "field": "long_description",
+     "points": 1,
+     "term": "apis"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "one_liner",
+     "points": 2,
+     "term": "enterprise"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 2,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 2,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 56,
+   "v1_score": 28,
+   "v1_support_points": 4,
+   "v2_rank": 51,
+   "v2_score": 26
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "long_description",
+     "match": "SRE"
+    },
+    {
+     "field": "long_description",
+     "match": "on-call"
+    }
+   ],
+   "label_reason": "production software support / on-call",
+   "slug": "corelayer",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "devtools",
+     "field": "tags",
+     "points": 6,
+     "term": "developer tools"
+    },
+    {
+     "category": "devtools",
+     "field": "industries",
+     "points": 3,
+     "term": "engineering product and design"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "long_description",
+     "points": 2,
+     "term": "infrastructure"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "enterprise software"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "enterprise"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 1,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 104,
+   "v1_score": 25,
+   "v1_support_points": 1,
+   "v2_rank": 28,
+   "v2_score": 28
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "long_description",
+     "match": "on-call"
+    }
+   ],
+   "label_reason": "on-call triage/remediation agents",
+   "slug": "drdroid",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 2,
+     "term": "ai agents"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 1,
+     "term": "ai"
+    },
+    {
+     "category": "devtools",
+     "field": "tags",
+     "points": 6,
+     "term": "developer tools"
+    },
+    {
+     "category": "devtools",
+     "field": "long_description",
+     "points": 2,
+     "term": "open source"
+    },
+    {
+     "category": "devtools",
+     "field": "industries",
+     "points": 3,
+     "term": "engineering product and design"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "long_description",
+     "points": 2,
+     "term": "infrastructure"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    }
+   ],
+   "v1_rank": 105,
+   "v1_score": 25,
+   "v1_support_points": 0,
+   "v2_rank": 143,
+   "v2_score": 21
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Chatbot"
+    }
+   ],
+   "label_reason": "employee HR/IT helpdesk assistant",
+   "slug": "leena-ai",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 6,
+     "term": "generative ai"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "enterprise software"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "enterprise"
+    }
+   ],
+   "v1_rank": 110,
+   "v1_score": 25,
+   "v1_support_points": 0,
+   "v2_rank": 218,
+   "v2_score": 19
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "contact center"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "label_reason": "AI-native contact center",
+   "slug": "dialogus",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 6,
+     "term": "infrastructure"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "long_description",
+     "points": 1,
+     "term": "enterprise"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 4,
+     "term": "contact center"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 148,
+   "v1_score": 24,
+   "v1_support_points": 12,
+   "v2_rank": 182,
+   "v2_score": 20
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "Customer Support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "support agents"
+    },
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "label_reason": "AI assistant for customer support",
+   "slug": "firstsupport-ai",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 152,
+   "v1_score": 24,
+   "v1_support_points": 9,
+   "v2_rank": 79,
+   "v2_score": 24
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "incident response"
+    }
+   ],
+   "label_reason": "notebook-style debugging tool for incident response",
+   "slug": "relvy-ai",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "devtools",
+     "field": "tags",
+     "points": 6,
+     "term": "developer tools"
+    },
+    {
+     "category": "devtools",
+     "field": "tags",
+     "points": 6,
+     "term": "devops"
+    },
+    {
+     "category": "devtools",
+     "field": "industries",
+     "points": 3,
+     "term": "engineering product and design"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    }
+   ],
+   "v1_rank": 170,
+   "v1_score": 24,
+   "v1_support_points": 0,
+   "v2_rank": 43,
+   "v2_score": 27
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "support ops"
+    },
+    {
+     "field": "long_description",
+     "match": "helpdesk"
+    },
+    {
+     "field": "long_description",
+     "match": "CX"
+    }
+   ],
+   "label_reason": "AI helpdesk in Slack",
+   "slug": "unthread",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 1,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 2,
+     "term": "helpdesk"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 179,
+   "v1_score": 24,
+   "v1_support_points": 11,
+   "v2_rank": 172,
+   "v2_score": 21
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "Support Agent"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "Support Agent"
+    },
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "label_reason": "AI support agent for ecommerce",
+   "slug": "yuma-ai",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 2,
+     "term": "ai agents"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 2,
+     "term": "rag"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 2,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 181,
+   "v1_score": 24,
+   "v1_support_points": 11,
+   "v2_rank": 136,
+   "v2_score": 22
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "SRE"
+    },
+    {
+     "field": "long_description",
+     "match": "SRE"
+    }
+   ],
+   "label_reason": "AI SRE for production incidents",
+   "slug": "brownie",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "devtools",
+     "field": "tags",
+     "points": 6,
+     "term": "developer tools"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 6,
+     "term": "infrastructure"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "aiops"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    }
+   ],
+   "v1_rank": 185,
+   "v1_score": 23,
+   "v1_support_points": 0,
+   "v2_rank": 1,
+   "v2_score": 35
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "Intercom"
+    },
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    }
+   ],
+   "label_reason": "open-source customer support platform",
+   "slug": "chatwoot",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "devtools",
+     "field": "tags",
+     "points": 6,
+     "term": "open source"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer success"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 187,
+   "v1_score": 23,
+   "v1_support_points": 12,
+   "v2_rank": 179,
+   "v2_score": 20
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Chatbot"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "one_liner",
+     "match": "customer service"
+    },
+    {
+     "field": "long_description",
+     "match": "CX"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "label_reason": "AI customer service",
+   "slug": "cloud-humans",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 2,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 1,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 188,
+   "v1_score": 23,
+   "v1_support_points": 9,
+   "v2_rank": 96,
+   "v2_score": 23
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "IT support"
+    }
+   ],
+   "label_reason": "one-liner includes automating HR/IT support",
+   "slug": "infeedo-ai",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 6,
+     "term": "generative ai"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "enterprise software"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "enterprise"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 2,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 192,
+   "v1_score": 23,
+   "v1_support_points": 2,
+   "v2_rank": 146,
+   "v2_score": 21
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "label_reason": "AI agents for customer support",
+   "slug": "dataland",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 4,
+     "term": "ai agents"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 6,
+     "term": "data engineering"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 4,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 2,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 223,
+   "v1_score": 22,
+   "v1_support_points": 6,
+   "v2_rank": 97,
+   "v2_score": 23
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    }
+   ],
+   "label_reason": "AI support and onboarding bots on technical content",
+   "slug": "kapa-ai",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 6,
+     "term": "generative ai"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "developer_education_writing",
+     "field": "long_description",
+     "points": 2,
+     "term": "tutorials"
+    },
+    {
+     "category": "developer_education_writing",
+     "field": "long_description",
+     "points": 1,
+     "term": "docs"
+    },
+    {
+     "category": "devtools",
+     "field": "long_description",
+     "points": 1,
+     "term": "api"
+    },
+    {
+     "category": "devtools",
+     "field": "long_description",
+     "points": 1,
+     "term": "developers"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 1,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 234,
+   "v1_score": 22,
+   "v1_support_points": 1,
+   "v2_rank": 471,
+   "v2_score": 15
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "one_liner",
+     "match": "Contact center"
+    },
+    {
+     "field": "long_description",
+     "match": "Contact Center"
+    },
+    {
+     "field": "long_description",
+     "match": "customer service"
+    },
+    {
+     "field": "long_description",
+     "match": "contact centers"
+    }
+   ],
+   "label_reason": "contact center AI",
+   "slug": "observe-ai",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 4,
+     "term": "contact center"
+    }
+   ],
+   "v1_rank": 243,
+   "v1_score": 22,
+   "v1_support_points": 10,
+   "v2_rank": 152,
+   "v2_score": 21
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "on-call"
+    },
+    {
+     "field": "one_liner",
+     "match": "incident response"
+    },
+    {
+     "field": "long_description",
+     "match": "on-call"
+    },
+    {
+     "field": "long_description",
+     "match": "incident management"
+    }
+   ],
+   "label_reason": "on-call and incident response",
+   "slug": "rootly",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "devtools",
+     "field": "tags",
+     "points": 6,
+     "term": "developer tools"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 6,
+     "term": "infrastructure"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "aiops"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    }
+   ],
+   "v1_rank": 310,
+   "v1_score": 21,
+   "v1_support_points": 0,
+   "v2_rank": 6,
+   "v2_score": 33
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "Customer Service"
+    }
+   ],
+   "label_reason": "AI customer service agents for trades",
+   "slug": "elyos-ai",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 4,
+     "term": "customer service"
+    }
+   ],
+   "v1_rank": 336,
+   "v1_score": 20,
+   "v1_support_points": 4,
+   "v2_rank": 211,
+   "v2_score": 19
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "Support Platform"
+    },
+    {
+     "field": "long_description",
+     "match": "support platform"
+    },
+    {
+     "field": "long_description",
+     "match": "support teams"
+    }
+   ],
+   "label_reason": "agentic support platform for B2B",
+   "slug": "pylon-2",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 1,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer success"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 355,
+   "v1_score": 20,
+   "v1_support_points": 12,
+   "v2_rank": 392,
+   "v2_score": 16
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "label_reason": "QA/governance/training for support orgs",
+   "slug": "intryc",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 2,
+     "term": "ai agents"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 1,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer success"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 395,
+   "v1_score": 19,
+   "v1_support_points": 12,
+   "v2_rank": 468,
+   "v2_score": 15
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "support agent"
+    },
+    {
+     "field": "long_description",
+     "match": "support agent"
+    }
+   ],
+   "label_reason": "AI support agent resolving tickets",
+   "slug": "parahelp",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "devtools",
+     "field": "long_description",
+     "points": 1,
+     "term": "api"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer success"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 402,
+   "v1_score": 19,
+   "v1_support_points": 12,
+   "v2_rank": 487,
+   "v2_score": 15
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "Customer service"
+    },
+    {
+     "field": "long_description",
+     "match": "customer service"
+    },
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    },
+    {
+     "field": "long_description",
+     "match": "Freshdesk"
+    }
+   ],
+   "label_reason": "customer service AI",
+   "slug": "typewise",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "devtools",
+     "field": "tags",
+     "points": 3,
+     "term": "api"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "long_description",
+     "points": 1,
+     "term": "enterprise"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 4,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 2,
+     "term": "ticketing"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 1,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 431,
+   "v1_score": 19,
+   "v1_support_points": 7,
+   "v2_rank": 309,
+   "v2_score": 18
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "Knowledge base"
+    },
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    },
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "label_reason": "auto-maintains support knowledge base from support channels",
+   "slug": "ariglad",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer success"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 444,
+   "v1_score": 18,
+   "v1_support_points": 12,
+   "v2_rank": 2477,
+   "v2_score": 3
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    },
+    {
+     "field": "long_description",
+     "match": "Freshdesk"
+    },
+    {
+     "field": "long_description",
+     "match": "Intercom"
+    }
+   ],
+   "label_reason": "AI-native customer support platform",
+   "slug": "letterbook",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 497,
+   "v1_score": 18,
+   "v1_support_points": 12,
+   "v2_rank": 474,
+   "v2_score": 15
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    }
+   ],
+   "label_reason": "AI customer operations + QA",
+   "slug": "rulebase",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer success"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 528,
+   "v1_score": 18,
+   "v1_support_points": 12,
+   "v2_rank": 2806,
+   "v2_score": 3
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "long_description",
+     "match": "support queue"
+    }
+   ],
+   "label_reason": "AI support queue",
+   "slug": "clad-labs",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer success"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 553,
+   "v1_score": 17,
+   "v1_support_points": 12,
+   "v2_rank": 704,
+   "v2_score": 12
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "IT support"
+    },
+    {
+     "field": "long_description",
+     "match": "Helpdesk"
+    },
+    {
+     "field": "long_description",
+     "match": "IT support"
+    }
+   ],
+   "label_reason": "IT helpdesk / IT support requests",
+   "slug": "risotto",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "long_description",
+     "points": 2,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "enterprise"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 2,
+     "term": "helpdesk"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 2,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 592,
+   "v1_score": 17,
+   "v1_support_points": 4,
+   "v2_rank": 1622,
+   "v2_score": 7
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "one_liner",
+     "match": "Customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "label_reason": "customer support as a service",
+   "slug": "hioperator",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 4,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 2,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 649,
+   "v1_score": 16,
+   "v1_support_points": 12,
+   "v2_rank": 619,
+   "v2_score": 13
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "customer service"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "label_reason": "automated airline customer service",
+   "slug": "humoniq",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 2,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 4,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 1,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 654,
+   "v1_score": 16,
+   "v1_support_points": 7,
+   "v2_rank": 374,
+   "v2_score": 16
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "one_liner",
+     "match": "Customer Care"
+    }
+   ],
+   "label_reason": "AI customer care",
+   "slug": "netomi",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 2,
+     "term": "generative ai"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 1,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer service"
+    }
+   ],
+   "v1_rank": 668,
+   "v1_score": 16,
+   "v1_support_points": 6,
+   "v2_rank": 386,
+   "v2_score": 16
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "Support Agent"
+    }
+   ],
+   "label_reason": "AI support agent for enterprises",
+   "slug": "giga",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "devtools",
+     "field": "industries",
+     "points": 3,
+     "term": "engineering product and design"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 2,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 770,
+   "v1_score": 15,
+   "v1_support_points": 2,
+   "v2_rank": 372,
+   "v2_score": 16
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "Customer Support"
+    },
+    {
+     "field": "long_description",
+     "match": "support teams"
+    }
+   ],
+   "label_reason": "AI agents for ecommerce customer support",
+   "slug": "minimal-ai",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 4,
+     "term": "ai agents"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 4,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 2,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 803,
+   "v1_score": 15,
+   "v1_support_points": 6,
+   "v2_rank": 383,
+   "v2_score": 16
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "on-call"
+    },
+    {
+     "field": "long_description",
+     "match": "SRE"
+    }
+   ],
+   "label_reason": "automated on-call / AI SRE",
+   "slug": "onepatch",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "devtools",
+     "field": "tags",
+     "points": 6,
+     "term": "devops"
+    },
+    {
+     "category": "devtools",
+     "field": "industries",
+     "points": 3,
+     "term": "engineering product and design"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    }
+   ],
+   "v1_rank": 812,
+   "v1_score": 15,
+   "v1_support_points": 0,
+   "v2_rank": 117,
+   "v2_score": 22
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Call Center"
+    },
+    {
+     "field": "one_liner",
+     "match": "contact centers"
+    },
+    {
+     "field": "long_description",
+     "match": "call centers"
+    },
+    {
+     "field": "long_description",
+     "match": "call center"
+    }
+   ],
+   "label_reason": "voice AI platform aimed at contact centers (contact-center software per definition)",
+   "slug": "sigmamind-ai",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 2,
+     "term": "ai agents"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 1,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 844,
+   "v1_score": 15,
+   "v1_support_points": 1,
+   "v2_rank": 104,
+   "v2_score": 23
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "Contact Center"
+    },
+    {
+     "field": "long_description",
+     "match": "contact center"
+    }
+   ],
+   "label_reason": "AI phone agents for contact center operations (contact-center software)",
+   "slug": "retell-ai",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 4,
+     "term": "contact center"
+    }
+   ],
+   "v1_rank": 946,
+   "v1_score": 14,
+   "v1_support_points": 4,
+   "v2_rank": 336,
+   "v2_score": 17
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "long_description",
+     "match": "SRE"
+    }
+   ],
+   "label_reason": "AI SRE agent",
+   "slug": "exla",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 1,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "infrastructure"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    }
+   ],
+   "v1_rank": 1013,
+   "v1_score": 13,
+   "v1_support_points": 0,
+   "v2_rank": 1162,
+   "v2_score": 9
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "Customer Support"
+    }
+   ],
+   "label_reason": "AI customer support for enterprises",
+   "slug": "cignara",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 4,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 2,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 1361,
+   "v1_score": 11,
+   "v1_support_points": 6,
+   "v2_rank": 1386,
+   "v2_score": 8
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "Customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "Intercom"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    }
+   ],
+   "label_reason": "customer support tool for API companies",
+   "slug": "fogbender",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "devtools",
+     "field": "one_liner",
+     "points": 2,
+     "term": "apis"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 4,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 2,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 1383,
+   "v1_score": 11,
+   "v1_support_points": 6,
+   "v2_rank": 545,
+   "v2_score": 14
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "call centers"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "call center"
+    },
+    {
+     "field": "long_description",
+     "match": "call center"
+    }
+   ],
+   "label_reason": "AI call center answering support calls",
+   "slug": "phonely",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 2,
+     "term": "llm"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 2,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 1,
+     "term": "support"
+    }
+   ],
+   "v1_rank": 1419,
+   "v1_score": 11,
+   "v1_support_points": 3,
+   "v2_rank": 333,
+   "v2_score": 17
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "on-call"
+    }
+   ],
+   "label_reason": "AI agents for on-call",
+   "slug": "deeptrace",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 4,
+     "term": "ai agents"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    }
+   ],
+   "v1_rank": 1503,
+   "v1_score": 10,
+   "v1_support_points": 0,
+   "v2_rank": 1522,
+   "v2_score": 7
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "CX"
+    },
+    {
+     "field": "long_description",
+     "match": "CX"
+    },
+    {
+     "field": "long_description",
+     "match": "contact centres"
+    }
+   ],
+   "label_reason": "AI agents for CX teams training/QA",
+   "slug": "solidroad",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 4,
+     "term": "ai agents"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    }
+   ],
+   "v1_rank": 1622,
+   "v1_score": 10,
+   "v1_support_points": 0,
+   "v2_rank": 1634,
+   "v2_score": 7
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "long_description",
+     "match": "call center"
+    }
+   ],
+   "label_reason": "AI voice agents for on-prem call-center telephony (contact-center software)",
+   "slug": "callab-ai",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "long_description",
+     "points": 2,
+     "term": "infrastructure"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    }
+   ],
+   "v1_rank": 1967,
+   "v1_score": 8,
+   "v1_support_points": 0,
+   "v2_rank": 2084,
+   "v2_score": 5
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Call Center"
+    },
+    {
+     "field": "one_liner",
+     "match": "call centers"
+    },
+    {
+     "field": "long_description",
+     "match": "call centers"
+    }
+   ],
+   "label_reason": "call-center QA software",
+   "slug": "mosaicvoice",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    }
+   ],
+   "v1_rank": 2468,
+   "v1_score": 6,
+   "v1_support_points": 0,
+   "v2_rank": 480,
+   "v2_score": 15
+  },
+  {
+   "bucket": "ranking_failure: Active, scored, rank > 20",
+   "candidate_evidence": [
+    {
+     "field": "long_description",
+     "match": "Help desk"
+    }
+   ],
+   "label_reason": "IT platform incl. help desk",
+   "slug": "modern",
+   "status": "Active",
+   "v1_matches": [
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    }
+   ],
+   "v1_rank": 3207,
+   "v1_score": 3,
+   "v1_support_points": 0,
+   "v2_rank": null,
+   "v2_score": 0
+  },
+  {
+   "bucket": "population_exclusion: status != Active (scorers rank Active only)",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "long_description",
+     "match": "live chat"
+    },
+    {
+     "field": "long_description",
+     "match": "helpdesk"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "label_reason": "live chat + helpdesk tools (description)",
+   "slug": "hipmob",
+   "status": "Inactive",
+   "v1_matches": [
+    {
+     "category": "developer_education_writing",
+     "field": "long_description",
+     "points": 2,
+     "term": "documentation"
+    },
+    {
+     "category": "devtools",
+     "field": "one_liner",
+     "points": 2,
+     "term": "developers"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 2,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 2,
+     "term": "helpdesk"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 1,
+     "term": "support"
+    }
+   ],
+   "v1_rank": null,
+   "v1_score": 18,
+   "v1_support_points": 11,
+   "v2_rank": null,
+   "v2_score": 0
+  },
+  {
+   "bucket": "population_exclusion: status != Active (scorers rank Active only)",
+   "candidate_evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "label_reason": "incident lifecycle / operations platform",
+   "slug": "pagerduty",
+   "status": "Public",
+   "v1_matches": [
+    {
+     "category": "devtools",
+     "field": "tags",
+     "points": 6,
+     "term": "devops"
+    },
+    {
+     "category": "devtools",
+     "field": "industries",
+     "points": 3,
+     "term": "engineering product and design"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "long_description",
+     "points": 2,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "long_description",
+     "points": 1,
+     "term": "enterprise"
+    }
+   ],
+   "v1_rank": null,
+   "v1_score": 15,
+   "v1_support_points": 0,
+   "v2_rank": null,
+   "v2_score": 0
+  },
+  {
+   "bucket": "population_exclusion: status != Active (scorers rank Active only)",
+   "candidate_evidence": [
+    {
+     "field": "long_description",
+     "match": "incident response"
+    },
+    {
+     "field": "long_description",
+     "match": "incident response"
+    },
+    {
+     "field": "long_description",
+     "match": "incident response"
+    }
+   ],
+   "label_reason": "IT incident enrichment and automation",
+   "slug": "neptune-io",
+   "status": "Inactive",
+   "v1_matches": [
+    {
+     "category": "developer_education_writing",
+     "field": "long_description",
+     "points": 2,
+     "term": "documentation"
+    },
+    {
+     "category": "devtools",
+     "field": "tags",
+     "points": 6,
+     "term": "devops"
+    },
+    {
+     "category": "devtools",
+     "field": "long_description",
+     "points": 2,
+     "term": "observability"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 6,
+     "term": "infrastructure"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "aiops"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    }
+   ],
+   "v1_rank": null,
+   "v1_score": 22,
+   "v1_support_points": 0,
+   "v2_rank": null,
+   "v2_score": 0
+  },
+  {
+   "bucket": "population_exclusion: status != Active (scorers rank Active only)",
+   "candidate_evidence": [
+    {
+     "field": "long_description",
+     "match": "helpdesk"
+    }
+   ],
+   "label_reason": "includes helpdesk system for employees",
+   "slug": "hivy",
+   "status": "Acquired",
+   "v1_matches": [
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 2,
+     "term": "helpdesk"
+    }
+   ],
+   "v1_rank": null,
+   "v1_score": 11,
+   "v1_support_points": 2,
+   "v2_rank": null,
+   "v2_score": 0
+  },
+  {
+   "bucket": "population_exclusion: status != Active (scorers rank Active only)",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "one_liner",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "label_reason": "customer support as a service",
+   "slug": "bicycle-ai",
+   "status": "Inactive",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 4,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 2,
+     "term": "support"
+    }
+   ],
+   "v1_rank": null,
+   "v1_score": 20,
+   "v1_support_points": 12,
+   "v2_rank": null,
+   "v2_score": 0
+  },
+  {
+   "bucket": "population_exclusion: status != Active (scorers rank Active only)",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "customer service"
+    },
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    },
+    {
+     "field": "long_description",
+     "match": "Intercom"
+    }
+   ],
+   "label_reason": "insights from customer service conversations for support/product teams",
+   "slug": "scopeai",
+   "status": "Acquired",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 1,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 4,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 1,
+     "term": "support"
+    }
+   ],
+   "v1_rank": null,
+   "v1_score": 12,
+   "v1_support_points": 5,
+   "v2_rank": null,
+   "v2_score": 0
+  },
+  {
+   "bucket": "population_exclusion: status != Active (scorers rank Active only)",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "one_liner",
+     "match": "support agent"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "label_reason": "AI support agent",
+   "slug": "percept-ai",
+   "status": "Acquired",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 2,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 2,
+     "term": "support"
+    }
+   ],
+   "v1_rank": null,
+   "v1_score": 24,
+   "v1_support_points": 10,
+   "v2_rank": null,
+   "v2_score": 0
+  },
+  {
+   "bucket": "population_exclusion: status != Active (scorers rank Active only)",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "Support automation"
+    }
+   ],
+   "label_reason": "support automation",
+   "slug": "cohere",
+   "status": "Acquired",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 1,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 2,
+     "term": "support"
+    }
+   ],
+   "v1_rank": null,
+   "v1_score": 9,
+   "v1_support_points": 2,
+   "v2_rank": null,
+   "v2_score": 0
+  },
+  {
+   "bucket": "population_exclusion: status != Active (scorers rank Active only)",
+   "candidate_evidence": [
+    {
+     "field": "one_liner",
+     "match": "customer service"
+    },
+    {
+     "field": "long_description",
+     "match": "support tickets"
+    }
+   ],
+   "label_reason": "AI for customer service teams; resolves support tickets",
+   "slug": "brevy",
+   "status": "Acquired",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "one_liner",
+     "points": 4,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 1,
+     "term": "support"
+    }
+   ],
+   "v1_rank": null,
+   "v1_score": 16,
+   "v1_support_points": 5,
+   "v2_rank": null,
+   "v2_score": 0
+  },
+  {
+   "bucket": "population_exclusion: status != Active (scorers rank Active only)",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "customer support"
+    },
+    {
+     "field": "one_liner",
+     "match": "Intercom"
+    },
+    {
+     "field": "one_liner",
+     "match": "Zendesk"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    },
+    {
+     "field": "long_description",
+     "match": "Intercom"
+    }
+   ],
+   "label_reason": "customer support platform",
+   "slug": "atlas-2",
+   "status": "Inactive",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 1,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer success"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "long_description",
+     "points": 2,
+     "term": "ticketing"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": null,
+   "v1_score": 22,
+   "v1_support_points": 12,
+   "v2_rank": null,
+   "v2_score": 0
+  },
+  {
+   "bucket": "population_exclusion: status != Active (scorers rank Active only)",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    }
+   ],
+   "label_reason": "answers support and sales questions",
+   "slug": "nara",
+   "status": "Acquired",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "artificial intelligence"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer service"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": null,
+   "v1_score": 21,
+   "v1_support_points": 12,
+   "v2_rank": null,
+   "v2_score": 0
+  },
+  {
+   "bucket": "population_exclusion: status != Active (scorers rank Active only)",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "CX"
+    }
+   ],
+   "label_reason": "AI-assisted CX tool; support tags",
+   "slug": "zoltar-labs",
+   "status": "Inactive",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "one_liner",
+     "points": 2,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "saas"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 6,
+     "term": "enterprise software"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "enterprise"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer success"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": null,
+   "v1_score": 26,
+   "v1_support_points": 12,
+   "v2_rank": null,
+   "v2_score": 0
+  },
+  {
+   "bucket": "population_exclusion: status != Active (scorers rank Active only)",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "label_reason": "AI assistant for customer support",
+   "slug": "parabolic",
+   "status": "Inactive",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 6,
+     "term": "generative ai"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "industries",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer success"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": null,
+   "v1_score": 24,
+   "v1_support_points": 12,
+   "v2_rank": null,
+   "v2_score": 0
+  },
+  {
+   "bucket": "population_exclusion: status != Active (scorers rank Active only)",
+   "candidate_evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "customer support"
+    }
+   ],
+   "label_reason": "customer support automation",
+   "slug": "opensight",
+   "status": "Inactive",
+   "v1_matches": [
+    {
+     "category": "python_ai_engineering",
+     "field": "long_description",
+     "points": 2,
+     "term": "llms"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 6,
+     "term": "generative ai"
+    },
+    {
+     "category": "python_ai_engineering",
+     "field": "tags",
+     "points": 3,
+     "term": "ai"
+    },
+    {
+     "category": "b2b_infra_saas",
+     "field": "tags",
+     "points": 3,
+     "term": "b2b"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer support"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 6,
+     "term": "customer success"
+    },
+    {
+     "category": "support_tooling",
+     "field": "tags",
+     "points": 3,
+     "term": "support"
+    }
+   ],
+   "v1_rank": null,
+   "v1_score": 26,
+   "v1_support_points": 12,
+   "v2_rank": null,
+   "v2_score": 0
+  }
+ ]
+}

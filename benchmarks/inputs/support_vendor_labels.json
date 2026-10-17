@@ -1,0 +1,3935 @@
+{
+ "candidates": [
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "long_description",
+     "match": "live chat"
+    },
+    {
+     "field": "long_description",
+     "match": "helpdesk"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 12,
+   "label": "vendor",
+   "label_reason": "live chat + helpdesk tools (description)",
+   "slug": "hipmob",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    }
+   ],
+   "has_description": true,
+   "id": 173,
+   "label": "adjacent",
+   "label_reason": "consumer-to-business messaging; no support product statement",
+   "slug": "talkbin",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    }
+   ],
+   "has_description": true,
+   "id": 194,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "leftronic",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 202,
+   "label": "vendor",
+   "label_reason": "incident lifecycle / operations platform",
+   "slug": "pagerduty",
+   "status": "Public"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "long_description",
+     "match": "live chat"
+    },
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 249,
+   "label": "adjacent",
+   "label_reason": "one-liner frames product as marketing-funnel AI agent; live chat mentioned",
+   "slug": "olark",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 271,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "airbnb",
+   "status": "Public"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    }
+   ],
+   "has_description": true,
+   "id": 434,
+   "label": "adjacent",
+   "label_reason": "customer success platform",
+   "slug": "natero",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 464,
+   "label": "generic_agent",
+   "label_reason": "voice agents; support one of several roles",
+   "slug": "plivo",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 484,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "lawdingo",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 536,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "glio",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 537,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "graft-concepts",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 559,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "butter-systems",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 574,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "airhelp",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Ticketing"
+    }
+   ],
+   "has_description": true,
+   "id": 594,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "eventjoy",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "intercom"
+    },
+    {
+     "field": "long_description",
+     "match": "intercom"
+    }
+   ],
+   "has_description": true,
+   "id": 599,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "kuna-systems",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "customer experience"
+    },
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 606,
+   "label": "adjacent",
+   "label_reason": "call verification (fraud) for call centers",
+   "slug": "next-caller",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 684,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "lawn-love",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "incident response"
+    },
+    {
+     "field": "long_description",
+     "match": "incident response"
+    },
+    {
+     "field": "long_description",
+     "match": "incident response"
+    }
+   ],
+   "has_description": true,
+   "id": 690,
+   "label": "vendor",
+   "label_reason": "IT incident enrichment and automation",
+   "slug": "neptune-io",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 781,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "buildscience",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 792,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "mobydish",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    },
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 823,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "pigeonly",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    },
+    {
+     "field": "long_description",
+     "match": "Intercom"
+    }
+   ],
+   "has_description": true,
+   "id": 873,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "partnerstack",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 876,
+   "label": "adjacent",
+   "label_reason": "AR work instructions; support one of several uses",
+   "slug": "scope-ar",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "Customer Service"
+    }
+   ],
+   "has_description": true,
+   "id": 882,
+   "label": "adjacent",
+   "label_reason": "training for sales/CS staff",
+   "slug": "hickory",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "incident response"
+    }
+   ],
+   "has_description": true,
+   "id": 891,
+   "label": "security_incident_response",
+   "label_reason": "cyber deception; automates security incident response",
+   "slug": "cymmetria",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 907,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "bluecrew",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 938,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "xendit",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 966,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "flirtey",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Chatbots"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 985,
+   "label": "generic_agent",
+   "label_reason": "chatbot builder; support one of several uses",
+   "slug": "chatfuel",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "live chat"
+    }
+   ],
+   "has_description": true,
+   "id": 987,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "getaccept",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 1031,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "castle",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "one_liner",
+     "match": "Customer Care"
+    }
+   ],
+   "has_description": true,
+   "id": 1033,
+   "label": "vendor",
+   "label_reason": "AI customer care",
+   "slug": "netomi",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    }
+   ],
+   "has_description": true,
+   "id": 1187,
+   "label": "not_vendor",
+   "label_reason": "learning platform",
+   "slug": "workramp",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Ticketing"
+    }
+   ],
+   "has_description": true,
+   "id": 1210,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "livement",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    }
+   ],
+   "has_description": true,
+   "id": 1230,
+   "label": "adjacent",
+   "label_reason": "direct on-demand tech support to SMBs, not tooling for a support team",
+   "slug": "techmate",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "one_liner",
+     "match": "Customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 1252,
+   "label": "vendor",
+   "label_reason": "customer support as a service",
+   "slug": "hioperator",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 1266,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "meesho",
+   "status": "Public"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 1298,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "yoshi-mobility",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Chatbots"
+    }
+   ],
+   "has_description": true,
+   "id": 1441,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "clear-genetics",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 1486,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "armory",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "helpdesk"
+    }
+   ],
+   "has_description": true,
+   "id": 1505,
+   "label": "vendor",
+   "label_reason": "includes helpdesk system for employees",
+   "slug": "hivy",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "one_liner",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 1534,
+   "label": "vendor",
+   "label_reason": "customer support as a service",
+   "slug": "bicycle-ai",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "customer service"
+    },
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    },
+    {
+     "field": "long_description",
+     "match": "Intercom"
+    }
+   ],
+   "has_description": true,
+   "id": 1563,
+   "label": "vendor",
+   "label_reason": "insights from customer service conversations for support/product teams",
+   "slug": "scopeai",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    }
+   ],
+   "has_description": true,
+   "id": 1613,
+   "label": "adjacent",
+   "label_reason": "on-demand expert help marketplace",
+   "slug": "sixty",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 1629,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "prelim",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "one_liner",
+     "match": "support agent"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 1666,
+   "label": "vendor",
+   "label_reason": "AI support agent",
+   "slug": "percept-ai",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "CX"
+    },
+    {
+     "field": "long_description",
+     "match": "CX"
+    }
+   ],
+   "has_description": true,
+   "id": 1702,
+   "label": "adjacent",
+   "label_reason": "customer-feedback intelligence for CX teams",
+   "slug": "thematic",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "live chat"
+    }
+   ],
+   "has_description": true,
+   "id": 1737,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "rhythmm",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "knowledge base"
+    },
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "has_description": true,
+   "id": 1748,
+   "label": "not_vendor",
+   "label_reason": "internal team knowledge base",
+   "slug": "slite",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "live chat"
+    }
+   ],
+   "has_description": true,
+   "id": 1781,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "vanta",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "knowledge base"
+    }
+   ],
+   "has_description": true,
+   "id": 1822,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "station",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 1838,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "osimple",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "support ticket"
+    }
+   ],
+   "has_description": true,
+   "id": 1857,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "point-api",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "one_liner",
+     "match": "Contact center"
+    },
+    {
+     "field": "long_description",
+     "match": "Contact Center"
+    },
+    {
+     "field": "long_description",
+     "match": "customer service"
+    },
+    {
+     "field": "long_description",
+     "match": "contact centers"
+    }
+   ],
+   "has_description": true,
+   "id": 1859,
+   "label": "vendor",
+   "label_reason": "contact center AI",
+   "slug": "observe-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "Intercom"
+    }
+   ],
+   "has_description": true,
+   "id": 1867,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "captivateiq",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "incident response"
+    }
+   ],
+   "has_description": true,
+   "id": 1942,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "tall-poppy",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Chatbot"
+    }
+   ],
+   "has_description": true,
+   "id": 1957,
+   "label": "generic_agent",
+   "label_reason": "AI assistant builder; no support statement",
+   "slug": "quickchat-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 2009,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "kobo360",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Chatbot"
+    }
+   ],
+   "has_description": true,
+   "id": 2017,
+   "label": "vendor",
+   "label_reason": "employee HR/IT helpdesk assistant",
+   "slug": "leena-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Chatbot"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "Intercom"
+    }
+   ],
+   "has_description": true,
+   "id": 2019,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "juzibot",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    }
+   ],
+   "has_description": true,
+   "id": 11964,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "chaser",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "long_description",
+     "match": "Intercom"
+    }
+   ],
+   "has_description": true,
+   "id": 11982,
+   "label": "adjacent",
+   "label_reason": "user-feedback repository",
+   "slug": "herald",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    }
+   ],
+   "has_description": true,
+   "id": 11991,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "community-phone-company",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "Incident Response"
+    }
+   ],
+   "has_description": false,
+   "id": 12265,
+   "label": "security_incident_response",
+   "label_reason": "cyber security incident response",
+   "slug": "sublime-black",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    }
+   ],
+   "has_description": true,
+   "id": 12283,
+   "label": "not_vendor",
+   "label_reason": "outbound AI agents",
+   "slug": "outrival-inc",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "SRE"
+    }
+   ],
+   "has_description": true,
+   "id": 12618,
+   "label": "not_vendor",
+   "label_reason": "observability, not incident response",
+   "slug": "embrace",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 12847,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "mudafy",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 13095,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "hoss",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    }
+   ],
+   "has_description": true,
+   "id": 13549,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "airbyte",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Chatbot"
+    },
+    {
+     "field": "long_description",
+     "match": "support tickets"
+    }
+   ],
+   "has_description": true,
+   "id": 21767,
+   "label": "adjacent",
+   "label_reason": "in-product user assistance / ticket deflection",
+   "slug": "command-ai",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "IT support"
+    }
+   ],
+   "has_description": true,
+   "id": 21772,
+   "label": "vendor",
+   "label_reason": "one-liner includes automating HR/IT support",
+   "slug": "infeedo-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 22032,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "intelligent",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "Support automation"
+    }
+   ],
+   "has_description": true,
+   "id": 22063,
+   "label": "vendor",
+   "label_reason": "support automation",
+   "slug": "cohere",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 22076,
+   "label": "vendor",
+   "label_reason": "AI agents for customer support",
+   "slug": "dataland",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "has_description": true,
+   "id": 22131,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "draftwise",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "live chat"
+    }
+   ],
+   "has_description": true,
+   "id": 22241,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "warmly",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "customer service"
+    },
+    {
+     "field": "long_description",
+     "match": "support tickets"
+    }
+   ],
+   "has_description": true,
+   "id": 22353,
+   "label": "vendor",
+   "label_reason": "AI for customer service teams; resolves support tickets",
+   "slug": "brevy",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Chatbot"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "one_liner",
+     "match": "customer service"
+    },
+    {
+     "field": "long_description",
+     "match": "CX"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 22608,
+   "label": "vendor",
+   "label_reason": "AI customer service",
+   "slug": "cloud-humans",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 22701,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "queenly",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "Customer Support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "support agents"
+    },
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "has_description": true,
+   "id": 22882,
+   "label": "vendor",
+   "label_reason": "AI assistant for customer support",
+   "slug": "firstsupport-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 23074,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "zoko",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 23236,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "stayflexi",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "Intercom"
+    },
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    }
+   ],
+   "has_description": true,
+   "id": 23279,
+   "label": "vendor",
+   "label_reason": "open-source customer support platform",
+   "slug": "chatwoot",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 23316,
+   "label": "generic_agent",
+   "label_reason": "workflow automation; support one of several users",
+   "slug": "floweq",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "has_description": true,
+   "id": 23967,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "varos",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "on-call"
+    },
+    {
+     "field": "one_liner",
+     "match": "incident response"
+    },
+    {
+     "field": "long_description",
+     "match": "on-call"
+    },
+    {
+     "field": "long_description",
+     "match": "incident management"
+    }
+   ],
+   "has_description": true,
+   "id": 23978,
+   "label": "vendor",
+   "label_reason": "on-call and incident response",
+   "slug": "rootly",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Chatbot"
+    }
+   ],
+   "has_description": true,
+   "id": 24137,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "soco",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    }
+   ],
+   "has_description": true,
+   "id": 24147,
+   "label": "adjacent",
+   "label_reason": "customer-success co-pilot in Slack",
+   "slug": "abbot",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    },
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    },
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 24292,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "fluke",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    }
+   ],
+   "has_description": true,
+   "id": 24346,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "mindfi",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 24525,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "akute-health",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "call centres"
+    }
+   ],
+   "has_description": true,
+   "id": 24567,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "tenyks",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "employee support"
+    }
+   ],
+   "has_description": true,
+   "id": 24575,
+   "label": "adjacent",
+   "label_reason": "IT management; support requests one feature",
+   "slug": "genuity",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 24635,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "stownest",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "incident response"
+    }
+   ],
+   "has_description": true,
+   "id": 24725,
+   "label": "security_incident_response",
+   "label_reason": "security delivery / incident response for MSSPs",
+   "slug": "contraforce",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "technical support"
+    }
+   ],
+   "has_description": true,
+   "id": 24875,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "equipt-health",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 24876,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "nash",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 24882,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "pide-directo",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    }
+   ],
+   "has_description": true,
+   "id": 24913,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "beau",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    }
+   ],
+   "has_description": true,
+   "id": 25275,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "strac",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    },
+    {
+     "field": "long_description",
+     "match": "on-call"
+    }
+   ],
+   "has_description": true,
+   "id": 25433,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "jumpwire",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "customer support"
+    },
+    {
+     "field": "one_liner",
+     "match": "Intercom"
+    },
+    {
+     "field": "one_liner",
+     "match": "Zendesk"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    },
+    {
+     "field": "long_description",
+     "match": "Intercom"
+    }
+   ],
+   "has_description": true,
+   "id": 25480,
+   "label": "vendor",
+   "label_reason": "customer support platform",
+   "slug": "atlas-2",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "intercom"
+    }
+   ],
+   "has_description": true,
+   "id": 25527,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "munily",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "IT support"
+    }
+   ],
+   "has_description": true,
+   "id": 25552,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "firezone",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Call Center"
+    },
+    {
+     "field": "one_liner",
+     "match": "call centers"
+    },
+    {
+     "field": "long_description",
+     "match": "call centers"
+    }
+   ],
+   "has_description": true,
+   "id": 25558,
+   "label": "vendor",
+   "label_reason": "call-center QA software",
+   "slug": "mosaicvoice",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "Knowledge base"
+    },
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "has_description": true,
+   "id": 25607,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "axis",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "has_description": true,
+   "id": 25645,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "refinetrain-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    }
+   ],
+   "has_description": true,
+   "id": 25679,
+   "label": "adjacent",
+   "label_reason": "customer implementation/onboarding",
+   "slug": "sero",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "ticket routing"
+    }
+   ],
+   "has_description": true,
+   "id": 25680,
+   "label": "generic_agent",
+   "label_reason": "agent platform; ticket routing example use",
+   "slug": "cotera",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 25681,
+   "label": "adjacent",
+   "label_reason": "AI call answering for trades; framed as revenue",
+   "slug": "spadeworks",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "Intercom"
+    }
+   ],
+   "has_description": true,
+   "id": 25743,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "trackingplan",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    }
+   ],
+   "has_description": true,
+   "id": 25912,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "vessel",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "Customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "Intercom"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    }
+   ],
+   "has_description": true,
+   "id": 25947,
+   "label": "vendor",
+   "label_reason": "customer support tool for API companies",
+   "slug": "fogbender",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Chatbot"
+    }
+   ],
+   "has_description": true,
+   "id": 25989,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "blink-new",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "knowledge base"
+    },
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "has_description": true,
+   "id": 26033,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "heptabase",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    }
+   ],
+   "has_description": true,
+   "id": 26052,
+   "label": "vendor",
+   "label_reason": "answers support and sales questions",
+   "slug": "nara",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    }
+   ],
+   "has_description": true,
+   "id": 26266,
+   "label": "adjacent",
+   "label_reason": "customer onboarding",
+   "slug": "onboard-io",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Call Center"
+    },
+    {
+     "field": "one_liner",
+     "match": "contact centers"
+    },
+    {
+     "field": "long_description",
+     "match": "call centers"
+    },
+    {
+     "field": "long_description",
+     "match": "call center"
+    }
+   ],
+   "has_description": true,
+   "id": 26693,
+   "label": "vendor",
+   "label_reason": "voice AI platform aimed at contact centers (contact-center software per definition)",
+   "slug": "sigmamind-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "Customer service"
+    },
+    {
+     "field": "long_description",
+     "match": "customer service"
+    },
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    },
+    {
+     "field": "long_description",
+     "match": "Freshdesk"
+    }
+   ],
+   "has_description": true,
+   "id": 26859,
+   "label": "vendor",
+   "label_reason": "customer service AI",
+   "slug": "typewise",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "CX"
+    }
+   ],
+   "has_description": false,
+   "id": 26876,
+   "label": "vendor",
+   "label_reason": "AI-assisted CX tool; support tags",
+   "slug": "zoltar-labs",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 26901,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "flycode",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    }
+   ],
+   "has_description": true,
+   "id": 27038,
+   "label": "vendor",
+   "label_reason": "AI agents resolving support tickets",
+   "slug": "fini",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Call Center"
+    }
+   ],
+   "has_description": true,
+   "id": 27045,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "argovox",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "support ops"
+    },
+    {
+     "field": "long_description",
+     "match": "helpdesk"
+    },
+    {
+     "field": "long_description",
+     "match": "CX"
+    }
+   ],
+   "has_description": true,
+   "id": 27051,
+   "label": "vendor",
+   "label_reason": "AI helpdesk in Slack",
+   "slug": "unthread",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 27492,
+   "label": "not_vendor",
+   "label_reason": "warranty operations agents",
+   "slug": "zudo",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "on-call"
+    }
+   ],
+   "has_description": true,
+   "id": 27686,
+   "label": "vendor",
+   "label_reason": "on-call triage/remediation agents",
+   "slug": "drdroid",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "support teams"
+    }
+   ],
+   "has_description": true,
+   "id": 27687,
+   "label": "adjacent",
+   "label_reason": "in-product user guidance",
+   "slug": "layup",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 27725,
+   "label": "vendor",
+   "label_reason": "AI assistant for customer support",
+   "slug": "parabolic",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Chatbot"
+    }
+   ],
+   "has_description": true,
+   "id": 27763,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "double-coding-copilot",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 27815,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "ofone",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 27816,
+   "label": "vendor",
+   "label_reason": "customer support automation",
+   "slug": "opensight",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "long_description",
+     "match": "Intercom"
+    },
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    }
+   ],
+   "has_description": true,
+   "id": 27818,
+   "label": "adjacent",
+   "label_reason": "support/training article creation",
+   "slug": "gluetrail",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 27824,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "coperniq",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    }
+   ],
+   "has_description": true,
+   "id": 27852,
+   "label": "adjacent",
+   "label_reason": "in-app onboarding assistant",
+   "slug": "frigade",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    }
+   ],
+   "has_description": true,
+   "id": 27881,
+   "label": "generic_agent",
+   "label_reason": "agent platform; Customer Support tag",
+   "slug": "inkeep",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "Knowledge base"
+    },
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    },
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "has_description": true,
+   "id": 27923,
+   "label": "vendor",
+   "label_reason": "auto-maintains support knowledge base from support channels",
+   "slug": "ariglad",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "knowledge base"
+    },
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    },
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "has_description": true,
+   "id": 27941,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "sage-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    }
+   ],
+   "has_description": true,
+   "id": 27982,
+   "label": "adjacent",
+   "label_reason": "instructional videos/docs",
+   "slug": "clueso",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "Support Platform"
+    },
+    {
+     "field": "long_description",
+     "match": "support platform"
+    },
+    {
+     "field": "long_description",
+     "match": "support teams"
+    }
+   ],
+   "has_description": true,
+   "id": 28069,
+   "label": "vendor",
+   "label_reason": "agentic support platform for B2B",
+   "slug": "pylon-2",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "Intercom"
+    }
+   ],
+   "has_description": true,
+   "id": 28103,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "fern",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    }
+   ],
+   "has_description": true,
+   "id": 28111,
+   "label": "adjacent",
+   "label_reason": "AI customer success manager",
+   "slug": "berry",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "Support Agent"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "Support Agent"
+    },
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 28417,
+   "label": "vendor",
+   "label_reason": "AI support agent for ecommerce",
+   "slug": "yuma-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    }
+   ],
+   "has_description": true,
+   "id": 28663,
+   "label": "vendor",
+   "label_reason": "AI support and onboarding bots on technical content",
+   "slug": "kapa-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "on-call"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 28779,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "withhuman",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "Customer Service"
+    }
+   ],
+   "has_description": true,
+   "id": 28784,
+   "label": "vendor",
+   "label_reason": "AI customer service agents for trades",
+   "slug": "elyos-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Chatbot"
+    }
+   ],
+   "has_description": true,
+   "id": 28882,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "repaint",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "support tickets"
+    }
+   ],
+   "has_description": true,
+   "id": 29006,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "inari",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    }
+   ],
+   "has_description": true,
+   "id": 29081,
+   "label": "generic_agent",
+   "label_reason": "agent builder; support one of several uses",
+   "slug": "minded",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "Support Agent"
+    }
+   ],
+   "has_description": false,
+   "id": 29108,
+   "label": "vendor",
+   "label_reason": "AI support agent for enterprises",
+   "slug": "giga",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "Zendesk"
+    },
+    {
+     "field": "long_description",
+     "match": "Freshdesk"
+    },
+    {
+     "field": "long_description",
+     "match": "Intercom"
+    }
+   ],
+   "has_description": true,
+   "id": 29160,
+   "label": "vendor",
+   "label_reason": "AI-native customer support platform",
+   "slug": "letterbook",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "Support Agents"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "support teams"
+    }
+   ],
+   "has_description": true,
+   "id": 29238,
+   "label": "vendor",
+   "label_reason": "AI support agents for support teams",
+   "slug": "duckie",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    }
+   ],
+   "has_description": true,
+   "id": 29283,
+   "label": "adjacent",
+   "label_reason": "post-sales customer intelligence",
+   "slug": "wavelength",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "contact center"
+    }
+   ],
+   "has_description": true,
+   "id": 29284,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "averyiq",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Call Center"
+    }
+   ],
+   "has_description": true,
+   "id": 29288,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "arini",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "has_description": true,
+   "id": 29301,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "topo",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "Incident Management"
+    }
+   ],
+   "has_description": true,
+   "id": 29312,
+   "label": "generic_agent",
+   "label_reason": "DevOps agent; incidents one use",
+   "slug": "onegrep",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 29360,
+   "label": "vendor",
+   "label_reason": "AI customer support platform",
+   "slug": "open",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Chatbots"
+    }
+   ],
+   "has_description": true,
+   "id": 29363,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "solari-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    }
+   ],
+   "has_description": false,
+   "id": 29377,
+   "label": "insufficient_info",
+   "label_reason": "one-liner 'AI Applied Research'; support tag only; no description",
+   "slug": "toma",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    }
+   ],
+   "has_description": true,
+   "id": 29380,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "conduit-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "has_description": true,
+   "id": 29395,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "clarum",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "IT support"
+    },
+    {
+     "field": "long_description",
+     "match": "Helpdesk"
+    },
+    {
+     "field": "long_description",
+     "match": "IT support"
+    }
+   ],
+   "has_description": true,
+   "id": 29405,
+   "label": "vendor",
+   "label_reason": "IT helpdesk / IT support requests",
+   "slug": "risotto",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 29430,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "bitesight",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "Contact Center"
+    },
+    {
+     "field": "long_description",
+     "match": "contact center"
+    }
+   ],
+   "has_description": true,
+   "id": 29441,
+   "label": "vendor",
+   "label_reason": "AI phone agents for contact center operations (contact-center software)",
+   "slug": "retell-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "call center"
+    }
+   ],
+   "has_description": true,
+   "id": 29522,
+   "label": "generic_agent",
+   "label_reason": "general voice agents",
+   "slug": "marr-labs",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Call Center"
+    }
+   ],
+   "has_description": true,
+   "id": 29572,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "domu-technology-inc",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "call centers"
+    }
+   ],
+   "has_description": true,
+   "id": 29574,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "superunit",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 29585,
+   "label": "generic_agent",
+   "label_reason": "memory layer; support use case",
+   "slug": "mem0",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 29613,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "claimsorted",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "call centers"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "call center"
+    },
+    {
+     "field": "long_description",
+     "match": "call center"
+    }
+   ],
+   "has_description": true,
+   "id": 29645,
+   "label": "vendor",
+   "label_reason": "AI call center answering support calls",
+   "slug": "phonely",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 29668,
+   "label": "generic_agent",
+   "label_reason": "enterprise agent automations",
+   "slug": "proxis",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Call Center"
+    }
+   ],
+   "has_description": true,
+   "id": 29679,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "dodo",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "support agent"
+    },
+    {
+     "field": "long_description",
+     "match": "support agent"
+    }
+   ],
+   "has_description": true,
+   "id": 29684,
+   "label": "vendor",
+   "label_reason": "AI support agent resolving tickets",
+   "slug": "parahelp",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    }
+   ],
+   "has_description": true,
+   "id": 29697,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "stormy",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "Intercom"
+    }
+   ],
+   "has_description": true,
+   "id": 29725,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "promi",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 29770,
+   "label": "vendor",
+   "label_reason": "QA/governance/training for support orgs",
+   "slug": "intryc",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Call Center"
+    }
+   ],
+   "has_description": true,
+   "id": 29785,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "simple-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 29787,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "lilac-labs",
+   "status": "Inactive"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "has_description": true,
+   "id": 29830,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "typa",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "On-call"
+    },
+    {
+     "field": "long_description",
+     "match": "on-call"
+    }
+   ],
+   "has_description": true,
+   "id": 29969,
+   "label": "adjacent",
+   "label_reason": "productivity suite incl. on-call scheduling",
+   "slug": "orgorg",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    }
+   ],
+   "has_description": true,
+   "id": 30036,
+   "label": "vendor",
+   "label_reason": "AI customer operations + QA",
+   "slug": "rulebase",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "incident response"
+    }
+   ],
+   "has_description": true,
+   "id": 30117,
+   "label": "vendor",
+   "label_reason": "notebook-style debugging tool for incident response",
+   "slug": "relvy-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Call Center"
+    }
+   ],
+   "has_description": true,
+   "id": 30124,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "careforce",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "has_description": true,
+   "id": 30160,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "quantstruct",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    },
+    {
+     "field": "long_description",
+     "match": "contact centers"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 30181,
+   "label": "generic_agent",
+   "label_reason": "voice/text agents; customer service one of several uses",
+   "slug": "leaping-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "call centers"
+    }
+   ],
+   "has_description": true,
+   "id": 30203,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "vocality-health",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    },
+    {
+     "field": "long_description",
+     "match": "support tickets"
+    }
+   ],
+   "has_description": true,
+   "id": 30207,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "promptless",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 30213,
+   "label": "generic_agent",
+   "label_reason": "agent APIs; support example",
+   "slug": "dexto",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Call Center"
+    }
+   ],
+   "has_description": false,
+   "id": 30227,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "caseflood-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "call centers"
+    }
+   ],
+   "has_description": true,
+   "id": 30266,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "cenote",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "CX"
+    },
+    {
+     "field": "long_description",
+     "match": "CX"
+    },
+    {
+     "field": "long_description",
+     "match": "contact centres"
+    }
+   ],
+   "has_description": true,
+   "id": 30275,
+   "label": "vendor",
+   "label_reason": "AI agents for CX teams training/QA",
+   "slug": "solidroad",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "SRE"
+    }
+   ],
+   "has_description": true,
+   "id": 30284,
+   "label": "vendor",
+   "label_reason": "AI SRE agent",
+   "slug": "exla",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Service"
+    },
+    {
+     "field": "one_liner",
+     "match": "call centers"
+    },
+    {
+     "field": "long_description",
+     "match": "call centers"
+    },
+    {
+     "field": "long_description",
+     "match": "support agents"
+    }
+   ],
+   "has_description": true,
+   "id": 30287,
+   "label": "vendor",
+   "label_reason": "AI support reps for call centers",
+   "slug": "calltree",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    }
+   ],
+   "has_description": true,
+   "id": 30291,
+   "label": "adjacent",
+   "label_reason": "churn/expansion for long tail",
+   "slug": "outlit",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    },
+    {
+     "field": "long_description",
+     "match": "call centers"
+    }
+   ],
+   "has_description": true,
+   "id": 30364,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "wayline",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    }
+   ],
+   "has_description": true,
+   "id": 30439,
+   "label": "generic_agent",
+   "label_reason": "governed agent builder",
+   "slug": "clarm",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 30446,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "kirana-ai",
+   "status": "Acquired"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "call center"
+    }
+   ],
+   "has_description": true,
+   "id": 30457,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "trapeze",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    }
+   ],
+   "has_description": true,
+   "id": 30524,
+   "label": "insufficient_info",
+   "label_reason": "[quoted source phrase removed] broad customer-interaction infrastructure claim; vague",
+   "slug": "lapel",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "long_description",
+     "match": "support teams"
+    },
+    {
+     "field": "long_description",
+     "match": "support teams"
+    }
+   ],
+   "has_description": true,
+   "id": 30592,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "prox",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 30606,
+   "label": "generic_agent",
+   "label_reason": "enterprise voice agents",
+   "slug": "acrely",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 30698,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "comena",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "Customer Support"
+    },
+    {
+     "field": "long_description",
+     "match": "support teams"
+    }
+   ],
+   "has_description": true,
+   "id": 30725,
+   "label": "vendor",
+   "label_reason": "AI agents for ecommerce customer support",
+   "slug": "minimal-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "customer service"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 30732,
+   "label": "vendor",
+   "label_reason": "automated airline customer service",
+   "slug": "humoniq",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "contact centres"
+    }
+   ],
+   "has_description": true,
+   "id": 30735,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "evergrove",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "Call centers"
+    }
+   ],
+   "has_description": true,
+   "id": 30759,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "certus-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 30801,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "burnt",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "on-call"
+    }
+   ],
+   "has_description": true,
+   "id": 30858,
+   "label": "vendor",
+   "label_reason": "AI agents for on-call",
+   "slug": "deeptrace",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    }
+   ],
+   "has_description": true,
+   "id": 30874,
+   "label": "adjacent",
+   "label_reason": "churn risk / user closeness",
+   "slug": "minro",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "incident response"
+    }
+   ],
+   "has_description": true,
+   "id": 30903,
+   "label": "generic_agent",
+   "label_reason": "platform-engineering agents; incident response one use",
+   "slug": "kestrel-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 30917,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "bravi",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "call centers"
+    }
+   ],
+   "has_description": true,
+   "id": 30919,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "codyco",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    },
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "long_description",
+     "match": "support queue"
+    }
+   ],
+   "has_description": true,
+   "id": 30957,
+   "label": "vendor",
+   "label_reason": "AI support queue",
+   "slug": "clad-labs",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "Customer Support"
+    }
+   ],
+   "has_description": true,
+   "id": 31117,
+   "label": "vendor",
+   "label_reason": "AI customer support for enterprises",
+   "slug": "cignara",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "support ticket"
+    }
+   ],
+   "has_description": true,
+   "id": 31147,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "salus",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "SRE"
+    },
+    {
+     "field": "long_description",
+     "match": "SRE"
+    }
+   ],
+   "has_description": true,
+   "id": 31165,
+   "label": "vendor",
+   "label_reason": "AI SRE for production incidents",
+   "slug": "brownie",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "call centers"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 31206,
+   "label": "generic_agent",
+   "label_reason": "voice agents; support one use",
+   "slug": "samora-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "has_description": true,
+   "id": 31207,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "caretta",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Success"
+    }
+   ],
+   "has_description": true,
+   "id": 31230,
+   "label": "adjacent",
+   "label_reason": "AI account managers",
+   "slug": "o11",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "SRE"
+    },
+    {
+     "field": "long_description",
+     "match": "on-call"
+    }
+   ],
+   "has_description": true,
+   "id": 31241,
+   "label": "vendor",
+   "label_reason": "production software support / on-call",
+   "slug": "corelayer",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 31271,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "voygr",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer experience"
+    }
+   ],
+   "has_description": true,
+   "id": 31364,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "chert",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "call center"
+    }
+   ],
+   "has_description": true,
+   "id": 31416,
+   "label": "vendor",
+   "label_reason": "AI voice agents for on-prem call-center telephony (contact-center software)",
+   "slug": "callab-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 31438,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "result",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 31440,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "mount",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "has_description": true,
+   "id": 31528,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "asendia-ai",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "Help desk"
+    }
+   ],
+   "has_description": true,
+   "id": 31545,
+   "label": "vendor",
+   "label_reason": "IT platform incl. help desk",
+   "slug": "modern",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "tags",
+     "match": "Customer Support"
+    },
+    {
+     "field": "one_liner",
+     "match": "contact center"
+    },
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 32202,
+   "label": "vendor",
+   "label_reason": "AI-native contact center",
+   "slug": "dialogus",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "call centers"
+    }
+   ],
+   "has_description": true,
+   "id": 32263,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "linklane",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer service"
+    }
+   ],
+   "has_description": true,
+   "id": 32617,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "whitespace",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "knowledge base"
+    }
+   ],
+   "has_description": true,
+   "id": 34597,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "sentient-os",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "one_liner",
+     "match": "on-call"
+    },
+    {
+     "field": "long_description",
+     "match": "SRE"
+    }
+   ],
+   "has_description": true,
+   "id": 35260,
+   "label": "vendor",
+   "label_reason": "automated on-call / AI SRE",
+   "slug": "onepatch",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "customer support"
+    }
+   ],
+   "has_description": true,
+   "id": 36347,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "trylatent",
+   "status": "Active"
+  },
+  {
+   "evidence": [
+    {
+     "field": "long_description",
+     "match": "call center"
+    }
+   ],
+   "has_description": true,
+   "id": 38127,
+   "label": "not_vendor",
+   "label_reason": "support vocabulary only (customer service as a value, integration names, staff roles, etc.)",
+   "slug": "deepmark",
+   "status": "Active"
+  }
+ ],
+ "consistency_note": "Applying the written definition here labels sigmamind-ai a vendor (contact-center software). The frozen eval label for sigmamind-ai is generic_agent; that frozen label is NOT changed, and the inconsistency is reported as an annotation error in the eval set.",
+ "genuine_vendor_definition": "The company's own product statement (one_liner or description) says it SELLS software or an operated service whose primary purpose is: (a) handling customer support/customer service for other businesses (helpdesk, ticketing, AI or human support agents, support QA/training/knowledge-base tooling, contact-center/call-center software); (b) internal IT/HR/employee helpdesk; or (c) production/IT incident response and on-call. Same definition as evidence/eval/labels.json 'vendor'.",
+ "labeler": "Claude Code (claude-opus-5-5), 2026-10-17; judgment from source fields only; NOT ground truth; labels assigned without viewing any rank-v1/rank-v2 score or rank",
+ "not_vendor_classes": {
+  "adjacent": "customer success, onboarding, feedback analytics, user guidance, direct support to consumers",
+  "generic_agent": "agent/voice/chatbot platform where support is one listed use",
+  "insufficient_info": "source text too vague",
+  "not_vendor": "support vocabulary only",
+  "security_incident_response": "cyber/SOC incident response — reported separately, excluded from support tooling"
+ },
+ "size": 234
+}

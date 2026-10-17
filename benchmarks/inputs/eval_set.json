@@ -1,0 +1,378 @@
+{
+ "companies": [
+  {
+   "id": 848,
+   "slug": "tara-ai",
+   "stratum": "devtools_infra_ai"
+  },
+  {
+   "id": 30894,
+   "slug": "unsiloed-ai",
+   "stratum": "devtools_infra_ai"
+  },
+  {
+   "id": 35096,
+   "slug": "stacktrace",
+   "stratum": "devtools_infra_ai"
+  },
+  {
+   "id": 29079,
+   "slug": "tiptap",
+   "stratum": "devtools_infra_ai"
+  },
+  {
+   "id": 30269,
+   "slug": "liquid-compute",
+   "stratum": "devtools_infra_ai"
+  },
+  {
+   "id": 33177,
+   "slug": "hyperprobe",
+   "stratum": "devtools_infra_ai"
+  },
+  {
+   "id": 29639,
+   "slug": "callback",
+   "stratum": "devtools_infra_ai"
+  },
+  {
+   "id": 24827,
+   "slug": "evidence",
+   "stratum": "devtools_infra_ai"
+  },
+  {
+   "id": 31047,
+   "slug": "waddle-labs",
+   "stratum": "devtools_infra_ai"
+  },
+  {
+   "id": 30665,
+   "slug": "pangolin",
+   "stratum": "devtools_infra_ai"
+  },
+  {
+   "id": 31261,
+   "slug": "control-seat",
+   "stratum": "devtools_infra_ai"
+  },
+  {
+   "id": 31010,
+   "slug": "amika",
+   "stratum": "devtools_infra_ai"
+  },
+  {
+   "id": 25714,
+   "slug": "strong-compute",
+   "stratum": "devtools_infra_ai"
+  },
+  {
+   "id": 12062,
+   "slug": "in-the-room",
+   "stratum": "devtools_infra_ai"
+  },
+  {
+   "id": 22608,
+   "slug": "cloud-humans",
+   "stratum": "support_tagged"
+  },
+  {
+   "id": 29572,
+   "slug": "domu-technology-inc",
+   "stratum": "support_tagged"
+  },
+  {
+   "id": 1252,
+   "slug": "hioperator",
+   "stratum": "support_tagged"
+  },
+  {
+   "id": 27051,
+   "slug": "unthread",
+   "stratum": "support_tagged"
+  },
+  {
+   "id": 26266,
+   "slug": "onboard-io",
+   "stratum": "support_tagged"
+  },
+  {
+   "id": 1859,
+   "slug": "observe-ai",
+   "stratum": "support_tagged"
+  },
+  {
+   "id": 30957,
+   "slug": "clad-labs",
+   "stratum": "support_tagged"
+  },
+  {
+   "id": 26693,
+   "slug": "sigmamind-ai",
+   "stratum": "support_tagged"
+  },
+  {
+   "id": 1033,
+   "slug": "netomi",
+   "stratum": "support_tagged"
+  },
+  {
+   "id": 30227,
+   "slug": "caseflood-ai",
+   "stratum": "support_tagged"
+  },
+  {
+   "id": 31230,
+   "slug": "o11",
+   "stratum": "support_tagged"
+  },
+  {
+   "id": 2019,
+   "slug": "juzibot",
+   "stratum": "support_tagged"
+  },
+  {
+   "id": 11991,
+   "slug": "community-phone-company",
+   "stratum": "support_tagged"
+  },
+  {
+   "id": 29160,
+   "slug": "letterbook",
+   "stratum": "support_tagged"
+  },
+  {
+   "id": 1942,
+   "slug": "tall-poppy",
+   "stratum": "incident_response"
+  },
+  {
+   "id": 31165,
+   "slug": "brownie",
+   "stratum": "incident_response"
+  },
+  {
+   "id": 1487,
+   "slug": "ambient-ai",
+   "stratum": "incident_response"
+  },
+  {
+   "id": 29312,
+   "slug": "onegrep",
+   "stratum": "incident_response"
+  },
+  {
+   "id": 23978,
+   "slug": "rootly",
+   "stratum": "incident_response"
+  },
+  {
+   "id": 35260,
+   "slug": "onepatch",
+   "stratum": "incident_response"
+  },
+  {
+   "id": 13116,
+   "slug": "tough-commerce",
+   "stratum": "support_vendor_untagged"
+  },
+  {
+   "id": 29108,
+   "slug": "giga",
+   "stratum": "support_vendor_untagged"
+  },
+  {
+   "id": 31206,
+   "slug": "samora-ai",
+   "stratum": "support_vendor_untagged"
+  },
+  {
+   "id": 1488,
+   "slug": "token-transit",
+   "stratum": "support_vendor_untagged"
+  },
+  {
+   "id": 26859,
+   "slug": "typewise",
+   "stratum": "support_vendor_untagged"
+  },
+  {
+   "id": 949,
+   "slug": "the-ticket-fairy",
+   "stratum": "support_vendor_untagged"
+  },
+  {
+   "id": 30698,
+   "slug": "comena",
+   "stratum": "hard_negative_support_vocab"
+  },
+  {
+   "id": 21860,
+   "slug": "synapticure",
+   "stratum": "hard_negative_support_vocab"
+  },
+  {
+   "id": 2017,
+   "slug": "leena-ai",
+   "stratum": "hard_negative_support_vocab"
+  },
+  {
+   "id": 24373,
+   "slug": "infiuss-health",
+   "stratum": "hard_negative_support_vocab"
+  },
+  {
+   "id": 30606,
+   "slug": "acrely",
+   "stratum": "hard_negative_support_vocab"
+  },
+  {
+   "id": 22658,
+   "slug": "howdy-com",
+   "stratum": "hard_negative_support_vocab"
+  },
+  {
+   "id": 1965,
+   "slug": "pine-park-health",
+   "stratum": "hard_negative_support_vocab"
+  },
+  {
+   "id": 26852,
+   "slug": "slidely-ai",
+   "stratum": "hard_negative_support_vocab"
+  },
+  {
+   "id": 574,
+   "slug": "airhelp",
+   "stratum": "hard_negative_support_vocab"
+  },
+  {
+   "id": 28982,
+   "slug": "flint-2",
+   "stratum": "hard_negative_support_vocab"
+  },
+  {
+   "id": 25680,
+   "slug": "cotera",
+   "stratum": "hard_negative_support_vocab"
+  },
+  {
+   "id": 12129,
+   "slug": "dover",
+   "stratum": "hard_negative_support_vocab"
+  },
+  {
+   "id": 24,
+   "slug": "gusto",
+   "stratum": "hard_negative_support_vocab"
+  },
+  {
+   "id": 30801,
+   "slug": "burnt",
+   "stratum": "hard_negative_support_vocab"
+  },
+  {
+   "id": 31204,
+   "slug": "forum",
+   "stratum": "incomplete_or_ambiguous"
+  },
+  {
+   "id": 30675,
+   "slug": "bootloop",
+   "stratum": "incomplete_or_ambiguous"
+  },
+  {
+   "id": 31306,
+   "slug": "martini",
+   "stratum": "incomplete_or_ambiguous"
+  },
+  {
+   "id": 29128,
+   "slug": "olio-labs",
+   "stratum": "incomplete_or_ambiguous"
+  },
+  {
+   "id": 30340,
+   "slug": "tamlabs",
+   "stratum": "incomplete_or_ambiguous"
+  },
+  {
+   "id": 1443,
+   "slug": "speak",
+   "stratum": "incomplete_or_ambiguous"
+  },
+  {
+   "id": 30737,
+   "slug": "foresight",
+   "stratum": "incomplete_or_ambiguous"
+  },
+  {
+   "id": 27655,
+   "slug": "avoca",
+   "stratum": "incomplete_or_ambiguous"
+  },
+  {
+   "id": 30102,
+   "slug": "diffusion-studio",
+   "stratum": "random_active_control"
+  },
+  {
+   "id": 24269,
+   "slug": "monet",
+   "stratum": "random_active_control"
+  },
+  {
+   "id": 24404,
+   "slug": "oneschema",
+   "stratum": "random_active_control"
+  },
+  {
+   "id": 22045,
+   "slug": "nephrogen",
+   "stratum": "random_active_control"
+  },
+  {
+   "id": 12504,
+   "slug": "vouch",
+   "stratum": "random_active_control"
+  },
+  {
+   "id": 34896,
+   "slug": "faraday",
+   "stratum": "random_active_control"
+  },
+  {
+   "id": 27194,
+   "slug": "rever",
+   "stratum": "random_active_control"
+  },
+  {
+   "id": 1744,
+   "slug": "fondo",
+   "stratum": "random_active_control"
+  }
+ ],
+ "excluded_original_top20": [
+  "authzed",
+  "baserun",
+  "beam",
+  "byteask",
+  "clueso",
+  "dailybot",
+  "dedalus-labs",
+  "dexto",
+  "kernel",
+  "kestrel-ai",
+  "lamin",
+  "litellm",
+  "mem0",
+  "mindsdb",
+  "morph",
+  "parea",
+  "promptless",
+  "quantstruct",
+  "storia-ai",
+  "unsloth-ai"
+ ],
+ "seed": "cashflow-eval-2026-10-17:",
+ "size": 70
+}

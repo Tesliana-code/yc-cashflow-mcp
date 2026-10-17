@@ -1,0 +1,378 @@
+[
+ {
+  "former_names": [],
+  "small_logo_thumb_url": "https://example.invalid/logo.png",
+  "all_locations": "Remote",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1700000000,
+  "tags": [
+   "Developer Tools",
+   "Artificial Intelligence",
+   "Open Source",
+   "B2B"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+   "B2B",
+   "Engineering, Product and Design"
+  ],
+  "regions": [
+   "Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": false,
+  "id": 101,
+  "slug": "fixture-pyagents",
+  "name": "Fixture PyAgents",
+  "one_liner": "Python SDK for AI agents",
+  "long_description": "Open source Python SDK and observability for LLM agents.",
+  "website": "https://fixture-pyagents.example",
+  "url": "https://www.ycombinator.com/companies/fixture-pyagents",
+  "api": "https://yc-oss.github.io/api/batches/winter-2024/fixture-pyagents.json"
+ },
+ {
+  "former_names": [],
+  "small_logo_thumb_url": "https://example.invalid/logo.png",
+  "all_locations": "Remote",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1700000000,
+  "tags": [
+   "Developer Tools",
+   "SaaS",
+   "Education"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+   "B2B"
+  ],
+  "regions": [
+   "Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": false,
+  "id": 102,
+  "slug": "fixture-docsmith",
+  "name": "Fixture DocSmith",
+  "one_liner": "Documentation platform for developers",
+  "long_description": "Technical writing and tutorials tooling for API companies.",
+  "website": "https://fixture-docsmith.example",
+  "url": "https://www.ycombinator.com/companies/fixture-docsmith",
+  "api": "https://yc-oss.github.io/api/batches/winter-2024/fixture-docsmith.json"
+ },
+ {
+  "former_names": [],
+  "small_logo_thumb_url": "https://example.invalid/logo.png",
+  "all_locations": "Remote",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1700000000,
+  "tags": [
+   "SaaS",
+   "AI",
+   "Customer Support"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+   "B2B"
+  ],
+  "regions": [
+   "Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": false,
+  "id": 103,
+  "slug": "fixture-helpdeskai",
+  "name": "Fixture HelpdeskAI",
+  "one_liner": "AI customer support for SaaS",
+  "long_description": "Ticketing and customer support automation.",
+  "website": "https://fixture-helpdeskai.example",
+  "url": "https://www.ycombinator.com/companies/fixture-helpdeskai",
+  "api": "https://yc-oss.github.io/api/batches/winter-2024/fixture-helpdeskai.json"
+ },
+ {
+  "former_names": [],
+  "small_logo_thumb_url": "https://example.invalid/logo.png",
+  "all_locations": "Remote",
+  "team_size": null,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1700000000,
+  "tags": [
+   "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": null,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+   "B2B",
+   "Infrastructure"
+  ],
+  "regions": [
+   "Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": false,
+  "id": 104,
+  "slug": "fixture-nulls",
+  "name": "Fixture Nulls",
+  "one_liner": "Infrastructure for something",
+  "long_description": null,
+  "website": null,
+  "url": "https://www.ycombinator.com/companies/fixture-nulls",
+  "api": "https://yc-oss.github.io/api/batches/winter-2024/fixture-nulls.json"
+ },
+ {
+  "former_names": [],
+  "small_logo_thumb_url": "https://example.invalid/logo.png",
+  "all_locations": "Remote",
+  "team_size": 10,
+  "industry": "Consumer",
+  "subindustry": "Consumer",
+  "launched_at": 1700000000,
+  "tags": [
+   "Consumer",
+   "Food"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+   "Consumer"
+  ],
+  "regions": [
+   "Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": false,
+  "id": 105,
+  "slug": "fixture-bakery",
+  "name": "Fixture Bakery",
+  "one_liner": "Fresh bread delivery",
+  "long_description": "Consumer bread subscription.",
+  "website": "https://fixture-bakery.example",
+  "url": "https://www.ycombinator.com/companies/fixture-bakery",
+  "api": "https://yc-oss.github.io/api/batches/winter-2024/fixture-bakery.json"
+ },
+ {
+  "former_names": [],
+  "small_logo_thumb_url": "https://example.invalid/logo.png",
+  "all_locations": "Remote",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1700000000,
+  "tags": [
+   "Developer Tools"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Inactive",
+  "industries": [
+   "B2B"
+  ],
+  "regions": [
+   "Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": false,
+  "id": 106,
+  "slug": "fixture-deadco",
+  "name": "Fixture DeadCo",
+  "one_liner": "Python developer tools",
+  "long_description": "Developer tools for Python.",
+  "website": "https://fixture-deadco.example",
+  "url": "https://www.ycombinator.com/companies/fixture-deadco",
+  "api": "https://yc-oss.github.io/api/batches/winter-2024/fixture-deadco.json"
+ },
+ {
+  "former_names": [],
+  "small_logo_thumb_url": "https://example.invalid/logo.png",
+  "all_locations": "Remote",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1700000000,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+   "B2B"
+  ],
+  "regions": [
+   "Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": false,
+  "id": 107,
+  "slug": "fixture-pyagents",
+  "name": "Duplicate Slug",
+  "one_liner": "dup",
+  "long_description": "dup",
+  "website": "https://fixture-pyagents.example",
+  "url": "https://www.ycombinator.com/companies/fixture-pyagents",
+  "api": "https://yc-oss.github.io/api/batches/winter-2024/fixture-pyagents.json"
+ },
+ {
+  "former_names": [],
+  "small_logo_thumb_url": "https://example.invalid/logo.png",
+  "all_locations": "Remote",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1700000000,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+   "B2B"
+  ],
+  "regions": [
+   "Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": false,
+  "id": 101,
+  "slug": "fixture-dup-id",
+  "name": "Duplicate Id",
+  "one_liner": "dup",
+  "long_description": "dup",
+  "website": "https://fixture-dup-id.example",
+  "url": "https://www.ycombinator.com/companies/fixture-dup-id",
+  "api": "https://yc-oss.github.io/api/batches/winter-2024/fixture-dup-id.json"
+ },
+ {
+  "former_names": [],
+  "small_logo_thumb_url": "https://example.invalid/logo.png",
+  "all_locations": "Remote",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1700000000,
+  "tags": [
+   "SaaS"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+   "B2B"
+  ],
+  "regions": [
+   "Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": false,
+  "id": 108,
+  "slug": "fixture-tie-a",
+  "name": "Fixture Tie A",
+  "one_liner": "SaaS",
+  "long_description": "x",
+  "website": "https://fixture-tie-a.example",
+  "url": "https://www.ycombinator.com/companies/fixture-tie-a",
+  "api": "https://yc-oss.github.io/api/batches/winter-2024/fixture-tie-a.json"
+ },
+ {
+  "former_names": [],
+  "small_logo_thumb_url": "https://example.invalid/logo.png",
+  "all_locations": "Remote",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1700000000,
+  "tags": [
+   "SaaS"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+   "B2B"
+  ],
+  "regions": [
+   "Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": false,
+  "id": 109,
+  "slug": "fixture-tie-b",
+  "name": "Fixture Tie B",
+  "one_liner": "SaaS",
+  "long_description": "x",
+  "website": "https://fixture-tie-b.example",
+  "url": "https://www.ycombinator.com/companies/fixture-tie-b",
+  "api": "https://yc-oss.github.io/api/batches/winter-2024/fixture-tie-b.json"
+ }
+]

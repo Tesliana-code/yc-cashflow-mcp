@@ -1,0 +1,652 @@
+{
+ "definitions": {
+  "campaign_relevance": {
+   "insufficient_info": "source text too vague to judge",
+   "irrelevant": "outside campaign scope",
+   "relevant": "developer-facing AI/ML, DevTools, infra, B2B SaaS/data infra, developer docs, or support/incident tooling",
+   "weak": "partial fit (non-developer B2B AI, service business, domain-specific dev tooling)"
+  },
+  "hires_support_engineers": "not determinable from YC source fields; recorded as unknown for all companies",
+  "support_class": {
+   "generic_agent": "general AI/voice agent platform where support is one possible use",
+   "insufficient_info": "cannot tell",
+   "none": "no support relation",
+   "uses_vocabulary": "uses support/ticket/incident vocabulary but sells something else",
+   "vendor": "SELLS support desks, customer-service/contact-center software or operations, IT/HR helpdesk, or incident response/on-call tooling"
+  }
+ },
+ "labeler": "Claude Code (claude-opus-5-5), 2026-10-17, from source fields only (one_liner, long_description, tags, subindustry), blind to all scores; no rank-v2 code existed when labels were written",
+ "labels": [
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 848,
+   "reason": "engineering-efficiency LLM platform for eng leaders",
+   "slug": "tara-ai",
+   "stratum": "devtools_infra_ai",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 30894,
+   "reason": "document-parsing API for AI/RAG pipelines",
+   "slug": "unsiloed-ai",
+   "stratum": "devtools_infra_ai",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 35096,
+   "reason": "control/observability layer for AI agents",
+   "slug": "stacktrace",
+   "stratum": "devtools_infra_ai",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 29079,
+   "reason": "open-source editor toolkit for developers",
+   "slug": "tiptap",
+   "stratum": "devtools_infra_ai",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 30269,
+   "reason": "financial exchange / settlement; no description",
+   "slug": "liquid-compute",
+   "stratum": "devtools_infra_ai",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 33177,
+   "reason": "debugs and fixes production incidents (incident tooling) via SDK",
+   "slug": "hyperprobe",
+   "stratum": "devtools_infra_ai",
+   "support_class": "vendor"
+  },
+  {
+   "campaign_relevance": "weak",
+   "hires_support_engineers": "unknown",
+   "id": 29639,
+   "reason": "AI automation for business operations, not developer-facing",
+   "slug": "callback",
+   "stratum": "devtools_infra_ai",
+   "support_class": "generic_agent"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 24827,
+   "reason": "open-source BI-as-code (SQL + markdown)",
+   "slug": "evidence",
+   "stratum": "devtools_infra_ai",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "weak",
+   "hires_support_engineers": "unknown",
+   "id": 31047,
+   "reason": "LLMs controlling robots; one-liner only",
+   "slug": "waddle-labs",
+   "stratum": "devtools_infra_ai",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 30665,
+   "reason": "open-source networking/security infra",
+   "slug": "pangolin",
+   "stratum": "devtools_infra_ai",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 31261,
+   "reason": "industrial/factory operations",
+   "slug": "control-seat",
+   "stratum": "devtools_infra_ai",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 31010,
+   "reason": "cloud infra for sandboxed coding agents",
+   "slug": "amika",
+   "stratum": "devtools_infra_ai",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 25714,
+   "reason": "compute for neural-network training",
+   "slug": "strong-compute",
+   "stratum": "devtools_infra_ai",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 12062,
+   "reason": "consumer event networking",
+   "slug": "in-the-room",
+   "stratum": "devtools_infra_ai",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 22608,
+   "reason": "AI customer-service agent answering support tickets",
+   "slug": "cloud-humans",
+   "stratum": "support_tagged",
+   "support_class": "vendor"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 29572,
+   "reason": "debt-collection calls; Call Center tag but not support",
+   "slug": "domu-technology-inc",
+   "stratum": "support_tagged",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "weak",
+   "hires_support_engineers": "unknown",
+   "id": 1252,
+   "reason": "customer support as a service (support operations, human service)",
+   "slug": "hioperator",
+   "stratum": "support_tagged",
+   "support_class": "vendor"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 27051,
+   "reason": "AI helpdesk in Slack, ticket resolution",
+   "slug": "unthread",
+   "stratum": "support_tagged",
+   "support_class": "vendor"
+  },
+  {
+   "campaign_relevance": "weak",
+   "hires_support_engineers": "unknown",
+   "id": 26266,
+   "reason": "customer onboarding/implementation SaaS; customer-success adjacent, not a support desk",
+   "slug": "onboard-io",
+   "stratum": "support_tagged",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 1859,
+   "reason": "contact-center AI for customer service operations",
+   "slug": "observe-ai",
+   "stratum": "support_tagged",
+   "support_class": "vendor"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 30957,
+   "reason": "AI support queue and ticket resolution",
+   "slug": "clad-labs",
+   "stratum": "support_tagged",
+   "support_class": "vendor"
+  },
+  {
+   "campaign_relevance": "weak",
+   "hires_support_engineers": "unknown",
+   "id": 26693,
+   "reason": "voice agents for call centers; mostly lead gen/collections, 'basic support' only",
+   "slug": "sigmamind-ai",
+   "stratum": "support_tagged",
+   "support_class": "generic_agent"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 1033,
+   "reason": "AI customer care platform",
+   "slug": "netomi",
+   "stratum": "support_tagged",
+   "support_class": "vendor"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 30227,
+   "reason": "legal intake; Call Center tag",
+   "slug": "caseflood-ai",
+   "stratum": "support_tagged",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "weak",
+   "hires_support_engineers": "unknown",
+   "id": 31230,
+   "reason": "AI account managers (customer success/sales), not support desk",
+   "slug": "o11",
+   "stratum": "support_tagged",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 2019,
+   "reason": "WeChat marketing/sales; tagged Customer Support",
+   "slug": "juzibot",
+   "stratum": "support_tagged",
+   "support_class": "uses_vocabulary"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 11991,
+   "reason": "consumer phone for seniors; tagged Customer Support",
+   "slug": "community-phone-company",
+   "stratum": "support_tagged",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 29160,
+   "reason": "AI-native customer support platform (Zendesk alternative)",
+   "slug": "letterbook",
+   "stratum": "support_tagged",
+   "support_class": "vendor"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 1942,
+   "reason": "personal online-harassment 'incident response' services, not IT",
+   "slug": "tall-poppy",
+   "stratum": "incident_response",
+   "support_class": "uses_vocabulary"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 31165,
+   "reason": "AI SRE agent for production incidents",
+   "slug": "brownie",
+   "stratum": "incident_response",
+   "support_class": "vendor"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 1487,
+   "reason": "physical security incidents",
+   "slug": "ambient-ai",
+   "stratum": "incident_response",
+   "support_class": "uses_vocabulary"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 29312,
+   "reason": "DevOps automation agent; incidents are one use case",
+   "slug": "onegrep",
+   "stratum": "incident_response",
+   "support_class": "generic_agent"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 23978,
+   "reason": "platform for on-call and incident management",
+   "slug": "rootly",
+   "stratum": "incident_response",
+   "support_class": "vendor"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 35260,
+   "reason": "AI SRE handling on-call incidents",
+   "slug": "onepatch",
+   "stratum": "incident_response",
+   "support_class": "vendor"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 13116,
+   "reason": "construction commerce; 'e-ticketing'",
+   "slug": "tough-commerce",
+   "stratum": "support_vendor_untagged",
+   "support_class": "uses_vocabulary"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 29108,
+   "reason": "AI support agent for enterprises (one-liner only)",
+   "slug": "giga",
+   "stratum": "support_vendor_untagged",
+   "support_class": "vendor"
+  },
+  {
+   "campaign_relevance": "weak",
+   "hires_support_engineers": "unknown",
+   "id": 31206,
+   "reason": "multilingual voice agents; support is one listed use",
+   "slug": "samora-ai",
+   "stratum": "support_vendor_untagged",
+   "support_class": "generic_agent"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 1488,
+   "reason": "transit fare 'mobile ticketing'",
+   "slug": "token-transit",
+   "stratum": "support_vendor_untagged",
+   "support_class": "uses_vocabulary"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 26859,
+   "reason": "customer-service AI resolving requests end-to-end",
+   "slug": "typewise",
+   "stratum": "support_vendor_untagged",
+   "support_class": "vendor"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 949,
+   "reason": "event ticketing",
+   "slug": "the-ticket-fairy",
+   "stratum": "support_vendor_untagged",
+   "support_class": "uses_vocabulary"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 30698,
+   "reason": "order-entry automation; mentions customer service teams",
+   "slug": "comena",
+   "stratum": "hard_negative_support_vocab",
+   "support_class": "uses_vocabulary"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 21860,
+   "reason": "neuro care; 'home health support'",
+   "slug": "synapticure",
+   "stratum": "hard_negative_support_vocab",
+   "support_class": "uses_vocabulary"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 2017,
+   "reason": "employee HR/IT helpdesk assistant answering tickets",
+   "slug": "leena-ai",
+   "stratum": "hard_negative_support_vocab",
+   "support_class": "vendor"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 24373,
+   "reason": "medical research marketplace; 'patient support'",
+   "slug": "infiuss-health",
+   "stratum": "hard_negative_support_vocab",
+   "support_class": "uses_vocabulary"
+  },
+  {
+   "campaign_relevance": "weak",
+   "hires_support_engineers": "unknown",
+   "id": 30606,
+   "reason": "enterprise voice agents; customer service is one use",
+   "slug": "acrely",
+   "stratum": "hard_negative_support_vocab",
+   "support_class": "generic_agent"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 22658,
+   "reason": "LATAM engineering staffing",
+   "slug": "howdy-com",
+   "stratum": "hard_negative_support_vocab",
+   "support_class": "uses_vocabulary"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 1965,
+   "reason": "primary care",
+   "slug": "pine-park-health",
+   "stratum": "hard_negative_support_vocab",
+   "support_class": "uses_vocabulary"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 26852,
+   "reason": "PowerPoint AI; 'PPTX support'",
+   "slug": "slidely-ai",
+   "stratum": "hard_negative_support_vocab",
+   "support_class": "uses_vocabulary"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 574,
+   "reason": "flight compensation claims",
+   "slug": "airhelp",
+   "stratum": "hard_negative_support_vocab",
+   "support_class": "uses_vocabulary"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 28982,
+   "reason": "K-12 edtech; not developer education",
+   "slug": "flint-2",
+   "stratum": "hard_negative_support_vocab",
+   "support_class": "uses_vocabulary"
+  },
+  {
+   "campaign_relevance": "weak",
+   "hires_support_engineers": "unknown",
+   "id": 25680,
+   "reason": "AI agent platform; ticket routing is an example use",
+   "slug": "cotera",
+   "stratum": "hard_negative_support_vocab",
+   "support_class": "generic_agent"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 12129,
+   "reason": "recruiting ATS",
+   "slug": "dover",
+   "stratum": "hard_negative_support_vocab",
+   "support_class": "uses_vocabulary"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 24,
+   "reason": "payroll/HR; 'expert support'",
+   "slug": "gusto",
+   "stratum": "hard_negative_support_vocab",
+   "support_class": "uses_vocabulary"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 30801,
+   "reason": "food supply-chain ERP agents",
+   "slug": "burnt",
+   "stratum": "hard_negative_support_vocab",
+   "support_class": "uses_vocabulary"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 31204,
+   "reason": "attention trading exchange",
+   "slug": "forum",
+   "stratum": "incomplete_or_ambiguous",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "weak",
+   "hires_support_engineers": "unknown",
+   "id": 30675,
+   "reason": "AI firmware agent; DevTools but embedded, no Python evidence",
+   "slug": "bootloop",
+   "stratum": "incomplete_or_ambiguous",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 31306,
+   "reason": "AI film production",
+   "slug": "martini",
+   "stratum": "incomplete_or_ambiguous",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 29128,
+   "reason": "therapeutics",
+   "slug": "olio-labs",
+   "stratum": "incomplete_or_ambiguous",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "insufficient_info",
+   "hires_support_engineers": "unknown",
+   "id": 30340,
+   "reason": "[quoted source phrase removed] generic agent-teams claim; too vague",
+   "slug": "tamlabs",
+   "stratum": "incomplete_or_ambiguous",
+   "support_class": "insufficient_info"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 1443,
+   "reason": "consumer language tutor",
+   "slug": "speak",
+   "stratum": "incomplete_or_ambiguous",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 30737,
+   "reason": "consumer simulations for CPG research",
+   "slug": "foresight",
+   "stratum": "incomplete_or_ambiguous",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 27655,
+   "reason": "AI sales agent; one-sentence description",
+   "slug": "avoca",
+   "stratum": "incomplete_or_ambiguous",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "weak",
+   "hires_support_engineers": "unknown",
+   "id": 30102,
+   "reason": "agents edit video via codebase; consumer media",
+   "slug": "diffusion-studio",
+   "stratum": "random_active_control",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 24269,
+   "reason": "consumer cash advances",
+   "slug": "monet",
+   "stratum": "random_active_control",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "relevant",
+   "hires_support_engineers": "unknown",
+   "id": 24404,
+   "reason": "self-hosted AI data cleaning/validation, B2B data infra",
+   "slug": "oneschema",
+   "stratum": "random_active_control",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 22045,
+   "reason": "biotech",
+   "slug": "nephrogen",
+   "stratum": "random_active_control",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 12504,
+   "reason": "insurance",
+   "slug": "vouch",
+   "stratum": "random_active_control",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 34896,
+   "reason": "industrial enterprise agents",
+   "slug": "faraday",
+   "stratum": "random_active_control",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 27194,
+   "reason": "e-commerce returns",
+   "slug": "rever",
+   "stratum": "random_active_control",
+   "support_class": "none"
+  },
+  {
+   "campaign_relevance": "irrelevant",
+   "hires_support_engineers": "unknown",
+   "id": 1744,
+   "reason": "bookkeeping/tax",
+   "slug": "fondo",
+   "stratum": "random_active_control",
+   "support_class": "none"
+  }
+ ],
+ "status": "JUDGMENT, NOT GROUND TRUTH — single annotator, no inter-annotator agreement measured"
+}

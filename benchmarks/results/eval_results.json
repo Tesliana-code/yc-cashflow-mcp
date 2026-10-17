@@ -1,0 +1,3625 @@
+{
+ "precision_at_20": {
+  "rank-v1": {
+   "denominator": 20,
+   "lenient": 17,
+   "strict": 16,
+   "top20": [
+    {
+     "label": "relevant",
+     "slug": "hyperprobe",
+     "v1": 29,
+     "v2": 35
+    },
+    {
+     "label": "relevant",
+     "slug": "tara-ai",
+     "v1": 27,
+     "v2": 24
+    },
+    {
+     "label": "relevant",
+     "slug": "leena-ai",
+     "v1": 25,
+     "v2": 19
+    },
+    {
+     "label": "relevant",
+     "slug": "pangolin",
+     "v1": 25,
+     "v2": 25
+    },
+    {
+     "label": "relevant",
+     "slug": "onegrep",
+     "v1": 24,
+     "v2": 21
+    },
+    {
+     "label": "relevant",
+     "slug": "unthread",
+     "v1": 24,
+     "v2": 21
+    },
+    {
+     "label": "relevant",
+     "slug": "brownie",
+     "v1": 23,
+     "v2": 35
+    },
+    {
+     "label": "relevant",
+     "slug": "cloud-humans",
+     "v1": 23,
+     "v2": 23
+    },
+    {
+     "label": "irrelevant",
+     "slug": "community-phone-company",
+     "v1": 23,
+     "v2": 10
+    },
+    {
+     "label": "irrelevant",
+     "slug": "domu-technology-inc",
+     "v1": 23,
+     "v2": 20
+    },
+    {
+     "label": "relevant",
+     "slug": "tiptap",
+     "v1": 23,
+     "v2": 19
+    },
+    {
+     "label": "relevant",
+     "slug": "unsiloed-ai",
+     "v1": 23,
+     "v2": 19
+    },
+    {
+     "label": "relevant",
+     "slug": "observe-ai",
+     "v1": 22,
+     "v2": 21
+    },
+    {
+     "label": "relevant",
+     "slug": "rootly",
+     "v1": 21,
+     "v2": 33
+    },
+    {
+     "label": "relevant",
+     "slug": "strong-compute",
+     "v1": 20,
+     "v2": 16
+    },
+    {
+     "label": "relevant",
+     "slug": "amika",
+     "v1": 19,
+     "v2": 15
+    },
+    {
+     "label": "relevant",
+     "slug": "typewise",
+     "v1": 19,
+     "v2": 18
+    },
+    {
+     "label": "weak",
+     "slug": "waddle-labs",
+     "v1": 19,
+     "v2": 19
+    },
+    {
+     "label": "relevant",
+     "slug": "evidence",
+     "v1": 18,
+     "v2": 15
+    },
+    {
+     "label": "irrelevant",
+     "slug": "juzibot",
+     "v1": 18,
+     "v2": 4
+    }
+   ],
+   "zero_score": 0
+  },
+  "rank-v2": {
+   "denominator": 20,
+   "lenient": 19,
+   "strict": 17,
+   "top20": [
+    {
+     "label": "relevant",
+     "slug": "brownie",
+     "v1": 23,
+     "v2": 35
+    },
+    {
+     "label": "relevant",
+     "slug": "hyperprobe",
+     "v1": 29,
+     "v2": 35
+    },
+    {
+     "label": "relevant",
+     "slug": "rootly",
+     "v1": 21,
+     "v2": 33
+    },
+    {
+     "label": "relevant",
+     "slug": "pangolin",
+     "v1": 25,
+     "v2": 25
+    },
+    {
+     "label": "relevant",
+     "slug": "tara-ai",
+     "v1": 27,
+     "v2": 24
+    },
+    {
+     "label": "relevant",
+     "slug": "cloud-humans",
+     "v1": 23,
+     "v2": 23
+    },
+    {
+     "label": "weak",
+     "slug": "sigmamind-ai",
+     "v1": 15,
+     "v2": 23
+    },
+    {
+     "label": "relevant",
+     "slug": "onepatch",
+     "v1": 15,
+     "v2": 22
+    },
+    {
+     "label": "relevant",
+     "slug": "observe-ai",
+     "v1": 22,
+     "v2": 21
+    },
+    {
+     "label": "relevant",
+     "slug": "onegrep",
+     "v1": 24,
+     "v2": 21
+    },
+    {
+     "label": "relevant",
+     "slug": "unthread",
+     "v1": 24,
+     "v2": 21
+    },
+    {
+     "label": "irrelevant",
+     "slug": "domu-technology-inc",
+     "v1": 23,
+     "v2": 20
+    },
+    {
+     "label": "relevant",
+     "slug": "leena-ai",
+     "v1": 25,
+     "v2": 19
+    },
+    {
+     "label": "relevant",
+     "slug": "tiptap",
+     "v1": 23,
+     "v2": 19
+    },
+    {
+     "label": "relevant",
+     "slug": "unsiloed-ai",
+     "v1": 23,
+     "v2": 19
+    },
+    {
+     "label": "weak",
+     "slug": "waddle-labs",
+     "v1": 19,
+     "v2": 19
+    },
+    {
+     "label": "relevant",
+     "slug": "typewise",
+     "v1": 19,
+     "v2": 18
+    },
+    {
+     "label": "relevant",
+     "slug": "giga",
+     "v1": 15,
+     "v2": 16
+    },
+    {
+     "label": "relevant",
+     "slug": "netomi",
+     "v1": 16,
+     "v2": 16
+    },
+    {
+     "label": "relevant",
+     "slug": "strong-compute",
+     "v1": 20,
+     "v2": 16
+    }
+   ],
+   "zero_score": 0
+  }
+ },
+ "regression_top20": {
+  "rows": [
+   {
+    "label": "relevant",
+    "slug": "authzed",
+    "v1_rank": 6,
+    "v1_support_points": 0,
+    "v2_rank": 14,
+    "v2_support_class": "none"
+   },
+   {
+    "label": "relevant",
+    "slug": "baserun",
+    "v1_rank": 11,
+    "v1_support_points": 0,
+    "v2_rank": 15,
+    "v2_support_class": "none"
+   },
+   {
+    "label": "relevant",
+    "slug": "beam",
+    "v1_rank": 20,
+    "v1_support_points": 0,
+    "v2_rank": 16,
+    "v2_support_class": "none"
+   },
+   {
+    "label": "weak",
+    "slug": "byteask",
+    "v1_rank": 12,
+    "v1_support_points": 0,
+    "v2_rank": 3,
+    "v2_support_class": "none"
+   },
+   {
+    "label": "weak",
+    "slug": "clueso",
+    "v1_rank": 3,
+    "v1_support_points": 6,
+    "v2_rank": 257,
+    "v2_support_class": "uses_vocabulary"
+   },
+   {
+    "label": "weak",
+    "slug": "dailybot",
+    "v1_rank": 18,
+    "v1_support_points": 0,
+    "v2_rank": 29,
+    "v2_support_class": "none"
+   },
+   {
+    "label": "relevant",
+    "slug": "dedalus-labs",
+    "v1_rank": 19,
+    "v1_support_points": 0,
+    "v2_rank": 7,
+    "v2_support_class": "none"
+   },
+   {
+    "label": "relevant",
+    "slug": "dexto",
+    "v1_rank": 4,
+    "v1_support_points": 3,
+    "v2_rank": 39,
+    "v2_support_class": "generic_agent"
+   },
+   {
+    "label": "relevant",
+    "slug": "kernel",
+    "v1_rank": 7,
+    "v1_support_points": 1,
+    "v2_rank": 4,
+    "v2_support_class": "none"
+   },
+   {
+    "label": "relevant",
+    "slug": "kestrel-ai",
+    "v1_rank": 13,
+    "v1_support_points": 1,
+    "v2_rank": 8,
+    "v2_support_class": "generic_agent"
+   },
+   {
+    "label": "weak",
+    "slug": "lamin",
+    "v1_rank": 14,
+    "v1_support_points": 0,
+    "v2_rank": 17,
+    "v2_support_class": "none"
+   },
+   {
+    "label": "relevant",
+    "slug": "litellm",
+    "v1_rank": 8,
+    "v1_support_points": 0,
+    "v2_rank": 11,
+    "v2_support_class": "none"
+   },
+   {
+    "label": "relevant",
+    "slug": "mem0",
+    "v1_rank": 1,
+    "v1_support_points": 3,
+    "v2_rank": 12,
+    "v2_support_class": "generic_agent"
+   },
+   {
+    "label": "relevant",
+    "slug": "mindsdb",
+    "v1_rank": 15,
+    "v1_support_points": 0,
+    "v2_rank": 5,
+    "v2_support_class": "none"
+   },
+   {
+    "label": "relevant",
+    "slug": "morph",
+    "v1_rank": 16,
+    "v1_support_points": 0,
+    "v2_rank": 21,
+    "v2_support_class": "none"
+   },
+   {
+    "label": "relevant",
+    "slug": "parea",
+    "v1_rank": 17,
+    "v1_support_points": 0,
+    "v2_rank": 22,
+    "v2_support_class": "none"
+   },
+   {
+    "label": "relevant",
+    "slug": "promptless",
+    "v1_rank": 2,
+    "v1_support_points": 1,
+    "v2_rank": 9,
+    "v2_support_class": "uses_vocabulary"
+   },
+   {
+    "label": "relevant",
+    "slug": "quantstruct",
+    "v1_rank": 9,
+    "v1_support_points": 0,
+    "v2_rank": 23,
+    "v2_support_class": "none"
+   },
+   {
+    "label": "relevant",
+    "slug": "storia-ai",
+    "v1_rank": 5,
+    "v1_support_points": 0,
+    "v2_rank": 10,
+    "v2_support_class": "none"
+   },
+   {
+    "label": "relevant",
+    "slug": "unsloth-ai",
+    "v1_rank": 10,
+    "v1_support_points": 0,
+    "v2_rank": 13,
+    "v2_support_class": "none"
+   }
+  ],
+  "v1_population_scored": 3595,
+  "v1_support_positive": 6,
+  "v2_population_scored": 3113,
+  "v2_support_positive": 0,
+  "weak_in_v2_top20": 2,
+  "weak_total": 4
+ },
+ "score_changes": [
+  {
+   "delta": -14,
+   "id": 2019,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 4→0; developer_education_writing 1→0; support_tooling 9→0; b2b removed; 1 suppressed",
+   "slug": "juzibot",
+   "stratum": "support_tagged",
+   "support_label": "uses_vocabulary",
+   "v1": 18,
+   "v1_categories": [
+    [
+     "developer_education_writing",
+     1
+    ],
+    [
+     "devtools",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     4
+    ],
+    [
+     "support_tooling",
+     9
+    ]
+   ],
+   "v2": 4,
+   "v2_categories": [
+    [
+     "devtools",
+     3
+    ]
+   ],
+   "v2_support": {
+    "class": "uses_vocabulary",
+    "evidence": [
+     {
+      "field": "tags",
+      "points": 2,
+      "rule": "support_tag",
+      "term": "Customer Support"
+     }
+    ],
+    "evidence_points": 2,
+    "rule": "support vocabulary without a sufficient product statement"
+   },
+   "v2_suppressed": [
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "education"
+    }
+   ]
+  },
+  {
+   "delta": -13,
+   "id": 11991,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 9→6; python_ai_engineering 4→3; support_tooling 9→0; b2b removed; 1 suppressed",
+   "slug": "community-phone-company",
+   "stratum": "support_tagged",
+   "support_label": "none",
+   "v1": 23,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     4
+    ],
+    [
+     "b2b_infra_saas",
+     9
+    ],
+    [
+     "support_tooling",
+     9
+    ]
+   ],
+   "v2": 10,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "uses_vocabulary",
+    "evidence": [
+     {
+      "field": "tags",
+      "points": 2,
+      "rule": "support_tag",
+      "term": "Customer Support"
+     }
+    ],
+    "evidence_points": 2,
+    "rule": "support vocabulary without a sufficient product statement"
+   },
+   "v2_suppressed": [
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "ai"
+    }
+   ]
+  },
+  {
+   "delta": 12,
+   "id": 31165,
+   "label": "relevant",
+   "reasons": "support_tooling 0→12; b2b removed",
+   "slug": "brownie",
+   "stratum": "incident_response",
+   "support_label": "vendor",
+   "v1": 23,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ],
+    [
+     "devtools",
+     6
+    ],
+    [
+     "b2b_infra_saas",
+     12
+    ]
+   ],
+   "v2": 35,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ],
+    [
+     "devtools",
+     6
+    ],
+    [
+     "b2b_infra_saas",
+     12
+    ],
+    [
+     "support_tooling",
+     12
+    ]
+   ],
+   "v2_support": {
+    "class": "vendor",
+    "evidence": [
+     {
+      "field": "one_liner",
+      "points": 3,
+      "rule": "product_statement_one_liner",
+      "term": "production incidents"
+     },
+     {
+      "field": "one_liner",
+      "points": 3,
+      "rule": "product_statement_one_liner",
+      "term": "sre"
+     },
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "sre"
+     }
+    ],
+    "evidence_points": 8,
+    "rule": "evidence_points>=3 including a product statement"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": 12,
+   "id": 23978,
+   "label": "relevant",
+   "reasons": "support_tooling 0→12; b2b removed",
+   "slug": "rootly",
+   "stratum": "incident_response",
+   "support_label": "vendor",
+   "v1": 21,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     2
+    ],
+    [
+     "devtools",
+     6
+    ],
+    [
+     "b2b_infra_saas",
+     12
+    ]
+   ],
+   "v2": 33,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     2
+    ],
+    [
+     "devtools",
+     6
+    ],
+    [
+     "b2b_infra_saas",
+     12
+    ],
+    [
+     "support_tooling",
+     12
+    ]
+   ],
+   "v2_support": {
+    "class": "vendor",
+    "evidence": [
+     {
+      "field": "one_liner",
+      "points": 3,
+      "rule": "product_statement_one_liner",
+      "term": "incident response"
+     },
+     {
+      "field": "one_liner",
+      "points": 3,
+      "rule": "product_statement_one_liner",
+      "term": "on call"
+     },
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "incident management"
+     },
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "on call"
+     }
+    ],
+    "evidence_points": 10,
+    "rule": "evidence_points>=3 including a product statement"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -9,
+   "id": 31230,
+   "label": "weak",
+   "reasons": "b2b_infra_saas 9→6; support_tooling 6→0; b2b removed",
+   "slug": "o11",
+   "stratum": "support_tagged",
+   "support_label": "none",
+   "v1": 18,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     9
+    ],
+    [
+     "support_tooling",
+     6
+    ]
+   ],
+   "v2": 9,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "uses_vocabulary",
+    "evidence": [
+     {
+      "field": "tags",
+      "points": 1,
+      "rule": "support_adjacent_tag",
+      "term": "Customer Success"
+     }
+    ],
+    "evidence_points": 1,
+    "rule": "support vocabulary without a sufficient product statement"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -9,
+   "id": 26266,
+   "label": "weak",
+   "reasons": "b2b_infra_saas 9→6; support_tooling 6→0; b2b removed",
+   "slug": "onboard-io",
+   "stratum": "support_tagged",
+   "support_label": "none",
+   "v1": 15,
+   "v1_categories": [
+    [
+     "b2b_infra_saas",
+     9
+    ],
+    [
+     "support_tooling",
+     6
+    ]
+   ],
+   "v2": 6,
+   "v2_categories": [
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "uses_vocabulary",
+    "evidence": [
+     {
+      "field": "tags",
+      "points": 1,
+      "rule": "support_adjacent_tag",
+      "term": "Customer Success"
+     }
+    ],
+    "evidence_points": 1,
+    "rule": "support vocabulary without a sufficient product statement"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -9,
+   "id": 31206,
+   "label": "weak",
+   "reasons": "b2b_infra_saas 3→0; python_ai_engineering 1→0; support_tooling 5→0; b2b removed; 1 suppressed",
+   "slug": "samora-ai",
+   "stratum": "support_vendor_untagged",
+   "support_label": "generic_agent",
+   "v1": 9,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     1
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ],
+    [
+     "support_tooling",
+     5
+    ]
+   ],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "generic_agent",
+    "evidence": [
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "call centers"
+     }
+    ],
+    "evidence_points": 2,
+    "rule": "agent platform; support appears only as a use case or weak evidence"
+   },
+   "v2_suppressed": [
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "ai"
+    }
+   ]
+  },
+  {
+   "delta": -8,
+   "id": 30606,
+   "label": "weak",
+   "reasons": "b2b_infra_saas 5→0; python_ai_engineering 1→0; support_tooling 2→0; b2b removed; 1 suppressed",
+   "slug": "acrely",
+   "stratum": "hard_negative_support_vocab",
+   "support_label": "generic_agent",
+   "v1": 8,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     1
+    ],
+    [
+     "b2b_infra_saas",
+     5
+    ],
+    [
+     "support_tooling",
+     2
+    ]
+   ],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "generic_agent",
+    "evidence": [
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "customer service"
+     }
+    ],
+    "evidence_points": 2,
+    "rule": "agent platform; support appears only as a use case or weak evidence"
+   },
+   "v2_suppressed": [
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "ai"
+    }
+   ]
+  },
+  {
+   "delta": 8,
+   "id": 26693,
+   "label": "weak",
+   "reasons": "b2b_infra_saas 9→6; support_tooling 1→12; b2b removed",
+   "slug": "sigmamind-ai",
+   "stratum": "support_tagged",
+   "support_label": "generic_agent",
+   "v1": 15,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ],
+    [
+     "b2b_infra_saas",
+     9
+    ],
+    [
+     "support_tooling",
+     1
+    ]
+   ],
+   "v2": 23,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ],
+    [
+     "support_tooling",
+     12
+    ]
+   ],
+   "v2_support": {
+    "class": "vendor",
+    "evidence": [
+     {
+      "field": "tags",
+      "points": 1,
+      "rule": "support_adjacent_tag",
+      "term": "Call Center"
+     },
+     {
+      "field": "one_liner",
+      "points": 3,
+      "rule": "product_statement_one_liner",
+      "term": "contact centers"
+     },
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "call centers"
+     },
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "call center"
+     }
+    ],
+    "evidence_points": 8,
+    "rule": "evidence_points>=3 including a product statement"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -7,
+   "id": 34896,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 12→6; python_ai_engineering 4→3; b2b removed; 1 suppressed",
+   "slug": "faraday",
+   "stratum": "random_active_control",
+   "support_label": "none",
+   "v1": 16,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     4
+    ],
+    [
+     "b2b_infra_saas",
+     12
+    ]
+   ],
+   "v2": 9,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": [
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "ai"
+    }
+   ]
+  },
+  {
+   "delta": 7,
+   "id": 35260,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 3→0; support_tooling 0→10; b2b removed",
+   "slug": "onepatch",
+   "stratum": "incident_response",
+   "support_label": "vendor",
+   "v1": 15,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "devtools",
+     9
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ]
+   ],
+   "v2": 22,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "devtools",
+     9
+    ],
+    [
+     "support_tooling",
+     10
+    ]
+   ],
+   "v2_support": {
+    "class": "vendor",
+    "evidence": [
+     {
+      "field": "one_liner",
+      "points": 3,
+      "rule": "product_statement_one_liner",
+      "term": "on call"
+     },
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "sre"
+     }
+    ],
+    "evidence_points": 5,
+    "rule": "evidence_points>=3 including a product statement"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": 6,
+   "id": 33177,
+   "label": "relevant",
+   "reasons": "support_tooling 0→6; b2b removed",
+   "slug": "hyperprobe",
+   "stratum": "devtools_infra_ai",
+   "support_label": "vendor",
+   "v1": 29,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ],
+    [
+     "devtools",
+     12
+    ],
+    [
+     "b2b_infra_saas",
+     12
+    ]
+   ],
+   "v2": 35,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ],
+    [
+     "devtools",
+     12
+    ],
+    [
+     "b2b_infra_saas",
+     12
+    ],
+    [
+     "support_tooling",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "vendor",
+    "evidence": [
+     {
+      "field": "one_liner",
+      "points": 3,
+      "rule": "product_statement_one_liner",
+      "term": "production incidents"
+     }
+    ],
+    "evidence_points": 3,
+    "rule": "evidence_points>=3 including a product statement"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -6,
+   "id": 2017,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 12→6; b2b removed",
+   "slug": "leena-ai",
+   "stratum": "hard_negative_support_vocab",
+   "support_label": "vendor",
+   "v1": 25,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     12
+    ],
+    [
+     "b2b_infra_saas",
+     12
+    ]
+   ],
+   "v2": 19,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     12
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -6,
+   "id": 30340,
+   "label": "insufficient_info",
+   "reasons": "b2b_infra_saas 6→0; b2b removed",
+   "slug": "tamlabs",
+   "stratum": "incomplete_or_ambiguous",
+   "support_label": "insufficient_info",
+   "v1": 9,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2": 3,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -5,
+   "id": 1487,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 7→2; b2b removed",
+   "slug": "ambient-ai",
+   "stratum": "incident_response",
+   "support_label": "uses_vocabulary",
+   "v1": 13,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ],
+    [
+     "b2b_infra_saas",
+     7
+    ]
+   ],
+   "v2": 8,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ],
+    [
+     "b2b_infra_saas",
+     2
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -5,
+   "id": 30801,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 3→0; support_tooling 2→0; b2b removed",
+   "slug": "burnt",
+   "stratum": "hard_negative_support_vocab",
+   "support_label": "uses_vocabulary",
+   "v1": 11,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ],
+    [
+     "support_tooling",
+     2
+    ]
+   ],
+   "v2": 6,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ]
+   ],
+   "v2_support": {
+    "class": "generic_agent",
+    "evidence": [
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "customer service"
+     }
+    ],
+    "evidence_points": 2,
+    "rule": "agent platform; support appears only as a use case or weak evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -5,
+   "id": 30957,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 3→0; support_tooling 12→10; b2b removed",
+   "slug": "clad-labs",
+   "stratum": "support_tagged",
+   "support_label": "vendor",
+   "v1": 17,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     2
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ],
+    [
+     "support_tooling",
+     12
+    ]
+   ],
+   "v2": 12,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     2
+    ],
+    [
+     "support_tooling",
+     10
+    ]
+   ],
+   "v2_support": {
+    "class": "vendor",
+    "evidence": [
+     {
+      "field": "tags",
+      "points": 1,
+      "rule": "support_adjacent_tag",
+      "term": "Customer Success"
+     },
+     {
+      "field": "tags",
+      "points": 2,
+      "rule": "support_tag",
+      "term": "Customer Support"
+     },
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "support queue"
+     }
+    ],
+    "evidence_points": 5,
+    "rule": "evidence_points>=3 including a product statement"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -5,
+   "id": 30698,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 3→0; support_tooling 2→0; b2b removed",
+   "slug": "comena",
+   "stratum": "hard_negative_support_vocab",
+   "support_label": "uses_vocabulary",
+   "v1": 12,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     6
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ],
+    [
+     "support_tooling",
+     2
+    ]
+   ],
+   "v2": 7,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "generic_agent",
+    "evidence": [
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "customer service"
+     }
+    ],
+    "evidence_points": 2,
+    "rule": "agent platform; support appears only as a use case or weak evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -5,
+   "id": 12129,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 3→0; support_tooling 1→0; b2b removed",
+   "slug": "dover",
+   "stratum": "hard_negative_support_vocab",
+   "support_label": "uses_vocabulary",
+   "v1": 5,
+   "v1_categories": [
+    [
+     "b2b_infra_saas",
+     3
+    ],
+    [
+     "support_tooling",
+     1
+    ]
+   ],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -5,
+   "id": 24,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 3→0; support_tooling 1→0; b2b removed",
+   "slug": "gusto",
+   "stratum": "hard_negative_support_vocab",
+   "support_label": "uses_vocabulary",
+   "v1": 5,
+   "v1_categories": [
+    [
+     "b2b_infra_saas",
+     3
+    ],
+    [
+     "support_tooling",
+     1
+    ]
+   ],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -5,
+   "id": 22658,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 3→0; devtools 1→0; support_tooling 1→0; b2b removed; 1 suppressed",
+   "slug": "howdy-com",
+   "stratum": "hard_negative_support_vocab",
+   "support_label": "uses_vocabulary",
+   "v1": 5,
+   "v1_categories": [
+    [
+     "devtools",
+     1
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ],
+    [
+     "support_tooling",
+     1
+    ]
+   ],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": [
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "developers"
+    }
+   ]
+  },
+  {
+   "delta": -5,
+   "id": 13116,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 3→0; support_tooling 2→0; b2b removed",
+   "slug": "tough-commerce",
+   "stratum": "support_vendor_untagged",
+   "support_label": "uses_vocabulary",
+   "v1": 5,
+   "v1_categories": [
+    [
+     "b2b_infra_saas",
+     3
+    ],
+    [
+     "support_tooling",
+     2
+    ]
+   ],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -4,
+   "id": 31010,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 9→6; devtools 1→0; b2b removed; 1 suppressed",
+   "slug": "amika",
+   "stratum": "devtools_infra_ai",
+   "support_label": "none",
+   "v1": 19,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     9
+    ],
+    [
+     "devtools",
+     1
+    ],
+    [
+     "b2b_infra_saas",
+     9
+    ]
+   ],
+   "v2": 15,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     9
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": [
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "api"
+    }
+   ]
+  },
+  {
+   "delta": -4,
+   "id": 30675,
+   "label": "weak",
+   "reasons": "b2b_infra_saas 3→0; python_ai_engineering 1→0; b2b removed; 1 suppressed",
+   "slug": "bootloop",
+   "stratum": "incomplete_or_ambiguous",
+   "support_label": "none",
+   "v1": 8,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     1
+    ],
+    [
+     "devtools",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ]
+   ],
+   "v2": 4,
+   "v2_categories": [
+    [
+     "devtools",
+     3
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": [
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "ai"
+    }
+   ]
+  },
+  {
+   "delta": -4,
+   "id": 25680,
+   "label": "weak",
+   "reasons": "b2b_infra_saas 3→0; devtools 1→0; b2b removed; 1 suppressed",
+   "slug": "cotera",
+   "stratum": "hard_negative_support_vocab",
+   "support_label": "generic_agent",
+   "v1": 10,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ],
+    [
+     "devtools",
+     1
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ]
+   ],
+   "v2": 6,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": [
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "apis"
+    }
+   ]
+  },
+  {
+   "delta": -4,
+   "id": 28982,
+   "label": "irrelevant",
+   "reasons": "developer_education_writing 3→0; support_tooling 1→0; 1 suppressed",
+   "slug": "flint-2",
+   "stratum": "hard_negative_support_vocab",
+   "support_label": "uses_vocabulary",
+   "v1": 14,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     9
+    ],
+    [
+     "developer_education_writing",
+     3
+    ],
+    [
+     "support_tooling",
+     1
+    ]
+   ],
+   "v2": 10,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     9
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": [
+    {
+     "field": "tags",
+     "reason": "no developer context (tag or developer/api/sdk token)",
+     "term": "education"
+    }
+   ]
+  },
+  {
+   "delta": -4,
+   "id": 30737,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 3→0; python_ai_engineering 1→0; b2b removed; 1 suppressed",
+   "slug": "foresight",
+   "stratum": "incomplete_or_ambiguous",
+   "support_label": "none",
+   "v1": 4,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     1
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ]
+   ],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": [
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "ai"
+    }
+   ]
+  },
+  {
+   "delta": -4,
+   "id": 24373,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 3→0; support_tooling 1→0; b2b removed",
+   "slug": "infiuss-health",
+   "stratum": "hard_negative_support_vocab",
+   "support_label": "uses_vocabulary",
+   "v1": 4,
+   "v1_categories": [
+    [
+     "b2b_infra_saas",
+     3
+    ],
+    [
+     "support_tooling",
+     1
+    ]
+   ],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -4,
+   "id": 26852,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 3→0; support_tooling 1→0; b2b removed",
+   "slug": "slidely-ai",
+   "stratum": "hard_negative_support_vocab",
+   "support_label": "uses_vocabulary",
+   "v1": 6,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     2
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ],
+    [
+     "support_tooling",
+     1
+    ]
+   ],
+   "v2": 2,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     2
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -4,
+   "id": 25714,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 9→6; python_ai_engineering 10→9; b2b removed; 1 suppressed",
+   "slug": "strong-compute",
+   "stratum": "devtools_infra_ai",
+   "support_label": "none",
+   "v1": 20,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     10
+    ],
+    [
+     "b2b_infra_saas",
+     9
+    ]
+   ],
+   "v2": 16,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     9
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": [
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "ai"
+    }
+   ]
+  },
+  {
+   "delta": -4,
+   "id": 29079,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 3→0; developer_education_writing 1→0; b2b removed; 2 suppressed",
+   "slug": "tiptap",
+   "stratum": "devtools_infra_ai",
+   "support_label": "none",
+   "v1": 23,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     7
+    ],
+    [
+     "developer_education_writing",
+     1
+    ],
+    [
+     "devtools",
+     12
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ]
+   ],
+   "v2": 19,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     7
+    ],
+    [
+     "devtools",
+     12
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": [
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "docs"
+    },
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "developers"
+    }
+   ]
+  },
+  {
+   "delta": -4,
+   "id": 30894,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 9→6; python_ai_engineering 8→7; b2b removed; 1 suppressed",
+   "slug": "unsiloed-ai",
+   "stratum": "devtools_infra_ai",
+   "support_label": "none",
+   "v1": 23,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     8
+    ],
+    [
+     "devtools",
+     5
+    ],
+    [
+     "b2b_infra_saas",
+     9
+    ]
+   ],
+   "v2": 19,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     7
+    ],
+    [
+     "devtools",
+     5
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": [
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "ai"
+    }
+   ]
+  },
+  {
+   "delta": -4,
+   "id": 12504,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 3→0; b2b removed",
+   "slug": "vouch",
+   "stratum": "random_active_control",
+   "support_label": "none",
+   "v1": 4,
+   "v1_categories": [
+    [
+     "b2b_infra_saas",
+     3
+    ]
+   ],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -3,
+   "id": 27655,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 3→0; b2b removed",
+   "slug": "avoca",
+   "stratum": "incomplete_or_ambiguous",
+   "support_label": "none",
+   "v1": 6,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     2
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ]
+   ],
+   "v2": 3,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     2
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -3,
+   "id": 29639,
+   "label": "weak",
+   "reasons": "b2b_infra_saas 9→6; b2b removed",
+   "slug": "callback",
+   "stratum": "devtools_infra_ai",
+   "support_label": "generic_agent",
+   "v1": 11,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     2
+    ],
+    [
+     "b2b_infra_saas",
+     9
+    ]
+   ],
+   "v2": 8,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     2
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -3,
+   "id": 30227,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 3→0; b2b removed",
+   "slug": "caseflood-ai",
+   "stratum": "support_tagged",
+   "support_label": "none",
+   "v1": 6,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ]
+   ],
+   "v2": 3,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ]
+   ],
+   "v2_support": {
+    "class": "uses_vocabulary",
+    "evidence": [
+     {
+      "field": "tags",
+      "points": 1,
+      "rule": "support_adjacent_tag",
+      "term": "Call Center"
+     }
+    ],
+    "evidence_points": 1,
+    "rule": "support vocabulary without a sufficient product statement"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -3,
+   "id": 29572,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 9→6; b2b removed",
+   "slug": "domu-technology-inc",
+   "stratum": "support_tagged",
+   "support_label": "none",
+   "v1": 23,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     10
+    ],
+    [
+     "devtools",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     9
+    ]
+   ],
+   "v2": 20,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     10
+    ],
+    [
+     "devtools",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "generic_agent",
+    "evidence": [
+     {
+      "field": "tags",
+      "points": 1,
+      "rule": "support_adjacent_tag",
+      "term": "Call Center"
+     }
+    ],
+    "evidence_points": 1,
+    "rule": "agent platform; support appears only as a use case or weak evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -3,
+   "id": 24827,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 3→0; b2b removed",
+   "slug": "evidence",
+   "stratum": "devtools_infra_ai",
+   "support_label": "none",
+   "v1": 18,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     6
+    ],
+    [
+     "devtools",
+     8
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ]
+   ],
+   "v2": 15,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     6
+    ],
+    [
+     "devtools",
+     8
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -3,
+   "id": 1744,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 9→6; b2b removed",
+   "slug": "fondo",
+   "stratum": "random_active_control",
+   "support_label": "none",
+   "v1": 12,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     9
+    ]
+   ],
+   "v2": 9,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -3,
+   "id": 1252,
+   "label": "weak",
+   "reasons": "b2b_infra_saas 3→0; b2b removed",
+   "slug": "hioperator",
+   "stratum": "support_tagged",
+   "support_label": "vendor",
+   "v1": 16,
+   "v1_categories": [
+    [
+     "b2b_infra_saas",
+     3
+    ],
+    [
+     "support_tooling",
+     12
+    ]
+   ],
+   "v2": 13,
+   "v2_categories": [
+    [
+     "support_tooling",
+     12
+    ]
+   ],
+   "v2_support": {
+    "class": "vendor",
+    "evidence": [
+     {
+      "field": "tags",
+      "points": 2,
+      "rule": "support_tag",
+      "term": "Customer Service"
+     },
+     {
+      "field": "one_liner",
+      "points": 3,
+      "rule": "product_statement_one_liner",
+      "term": "customer support"
+     },
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "customer support"
+     }
+    ],
+    "evidence_points": 7,
+    "rule": "evidence_points>=3 including a product statement"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -3,
+   "id": 29160,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 3→0; b2b removed",
+   "slug": "letterbook",
+   "stratum": "support_tagged",
+   "support_label": "vendor",
+   "v1": 18,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ],
+    [
+     "support_tooling",
+     12
+    ]
+   ],
+   "v2": 15,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "support_tooling",
+     12
+    ]
+   ],
+   "v2_support": {
+    "class": "vendor",
+    "evidence": [
+     {
+      "field": "tags",
+      "points": 2,
+      "rule": "support_tag",
+      "term": "Customer Service"
+     },
+     {
+      "field": "tags",
+      "points": 2,
+      "rule": "support_tag",
+      "term": "Customer Support"
+     },
+     {
+      "field": "one_liner",
+      "points": 3,
+      "rule": "product_statement_one_liner",
+      "term": "customer support"
+     },
+     {
+      "field": "one_liner",
+      "points": 3,
+      "rule": "product_statement_one_liner",
+      "term": "support platform"
+     },
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "customer support"
+     },
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "support tickets"
+     }
+    ],
+    "evidence_points": 14,
+    "rule": "evidence_points>=3 including a product statement"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -3,
+   "id": 31306,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 3→0; b2b removed",
+   "slug": "martini",
+   "stratum": "incomplete_or_ambiguous",
+   "support_label": "none",
+   "v1": 10,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     4
+    ],
+    [
+     "devtools",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ]
+   ],
+   "v2": 7,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     4
+    ],
+    [
+     "devtools",
+     3
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -3,
+   "id": 29312,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 3→0; b2b removed",
+   "slug": "onegrep",
+   "stratum": "incident_response",
+   "support_label": "generic_agent",
+   "v1": 24,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     9
+    ],
+    [
+     "devtools",
+     12
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ]
+   ],
+   "v2": 21,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     9
+    ],
+    [
+     "devtools",
+     12
+    ]
+   ],
+   "v2_support": {
+    "class": "generic_agent",
+    "evidence": [
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "incident management"
+     }
+    ],
+    "evidence_points": 2,
+    "rule": "agent platform; support appears only as a use case or weak evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -3,
+   "id": 24404,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 9→6; b2b removed",
+   "slug": "oneschema",
+   "stratum": "random_active_control",
+   "support_label": "none",
+   "v1": 16,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     6
+    ],
+    [
+     "b2b_infra_saas",
+     9
+    ]
+   ],
+   "v2": 13,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     6
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -3,
+   "id": 27194,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 9→6; b2b removed",
+   "slug": "rever",
+   "stratum": "random_active_control",
+   "support_label": "none",
+   "v1": 10,
+   "v1_categories": [
+    [
+     "b2b_infra_saas",
+     9
+    ]
+   ],
+   "v2": 7,
+   "v2_categories": [
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -3,
+   "id": 1443,
+   "label": "irrelevant",
+   "reasons": "developer_education_writing 3→0; 1 suppressed",
+   "slug": "speak",
+   "stratum": "incomplete_or_ambiguous",
+   "support_label": "none",
+   "v1": 9,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ],
+    [
+     "developer_education_writing",
+     3
+    ]
+   ],
+   "v2": 6,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": [
+    {
+     "field": "tags",
+     "reason": "no developer context (tag or developer/api/sdk token)",
+     "term": "education"
+    }
+   ]
+  },
+  {
+   "delta": -3,
+   "id": 35096,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 9→6; b2b removed",
+   "slug": "stacktrace",
+   "stratum": "devtools_infra_ai",
+   "support_label": "none",
+   "v1": 12,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     9
+    ]
+   ],
+   "v2": 9,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -3,
+   "id": 1942,
+   "label": "irrelevant",
+   "reasons": "b2b_infra_saas 3→0; b2b removed",
+   "slug": "tall-poppy",
+   "stratum": "incident_response",
+   "support_label": "uses_vocabulary",
+   "v1": 3,
+   "v1_categories": [
+    [
+     "b2b_infra_saas",
+     3
+    ]
+   ],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "uses_vocabulary",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "support vocabulary without a sufficient product statement"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -3,
+   "id": 848,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 9→6; b2b removed",
+   "slug": "tara-ai",
+   "stratum": "devtools_infra_ai",
+   "support_label": "none",
+   "v1": 27,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     12
+    ],
+    [
+     "devtools",
+     6
+    ],
+    [
+     "b2b_infra_saas",
+     9
+    ]
+   ],
+   "v2": 24,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     12
+    ],
+    [
+     "devtools",
+     6
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -3,
+   "id": 27051,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 9→6; python_ai_engineering 4→3; support_tooling 11→12; b2b removed; 1 suppressed",
+   "slug": "unthread",
+   "stratum": "support_tagged",
+   "support_label": "vendor",
+   "v1": 24,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     4
+    ],
+    [
+     "b2b_infra_saas",
+     9
+    ],
+    [
+     "support_tooling",
+     11
+    ]
+   ],
+   "v2": 21,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ],
+    [
+     "support_tooling",
+     12
+    ]
+   ],
+   "v2_support": {
+    "class": "vendor",
+    "evidence": [
+     {
+      "field": "tags",
+      "points": 2,
+      "rule": "support_tag",
+      "term": "Customer Support"
+     },
+     {
+      "field": "one_liner",
+      "points": 3,
+      "rule": "product_statement_one_liner",
+      "term": "support ops"
+     },
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "helpdesk"
+     }
+    ],
+    "evidence_points": 7,
+    "rule": "evidence_points>=3 including a product statement"
+   },
+   "v2_suppressed": [
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "ai"
+    }
+   ]
+  },
+  {
+   "delta": -2,
+   "id": 574,
+   "label": "irrelevant",
+   "reasons": "support_tooling 2→0",
+   "slug": "airhelp",
+   "stratum": "hard_negative_support_vocab",
+   "support_label": "uses_vocabulary",
+   "v1": 2,
+   "v1_categories": [
+    [
+     "support_tooling",
+     2
+    ]
+   ],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "uses_vocabulary",
+    "evidence": [
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "customer service"
+     }
+    ],
+    "evidence_points": 2,
+    "rule": "support vocabulary without a sufficient product statement"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -2,
+   "id": 1965,
+   "label": "irrelevant",
+   "reasons": "support_tooling 1→0",
+   "slug": "pine-park-health",
+   "stratum": "hard_negative_support_vocab",
+   "support_label": "uses_vocabulary",
+   "v1": 2,
+   "v1_categories": [
+    [
+     "support_tooling",
+     1
+    ]
+   ],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -2,
+   "id": 949,
+   "label": "irrelevant",
+   "reasons": "support_tooling 2→0",
+   "slug": "the-ticket-fairy",
+   "stratum": "support_vendor_untagged",
+   "support_label": "uses_vocabulary",
+   "v1": 8,
+   "v1_categories": [
+    [
+     "b2b_infra_saas",
+     6
+    ],
+    [
+     "support_tooling",
+     2
+    ]
+   ],
+   "v2": 6,
+   "v2_categories": [
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -2,
+   "id": 1488,
+   "label": "irrelevant",
+   "reasons": "support_tooling 2→0",
+   "slug": "token-transit",
+   "stratum": "support_vendor_untagged",
+   "support_label": "uses_vocabulary",
+   "v1": 2,
+   "v1_categories": [
+    [
+     "support_tooling",
+     2
+    ]
+   ],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": 1,
+   "id": 29108,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 3→0; support_tooling 2→6; b2b removed",
+   "slug": "giga",
+   "stratum": "support_vendor_untagged",
+   "support_label": "vendor",
+   "v1": 15,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     6
+    ],
+    [
+     "devtools",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ],
+    [
+     "support_tooling",
+     2
+    ]
+   ],
+   "v2": 16,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     6
+    ],
+    [
+     "devtools",
+     3
+    ],
+    [
+     "support_tooling",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "vendor",
+    "evidence": [
+     {
+      "field": "one_liner",
+      "points": 3,
+      "rule": "product_statement_one_liner",
+      "term": "support agent"
+     }
+    ],
+    "evidence_points": 3,
+    "rule": "evidence_points>=3 including a product statement"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -1,
+   "id": 22045,
+   "label": "irrelevant",
+   "reasons": "python_ai_engineering 1→0; 1 suppressed",
+   "slug": "nephrogen",
+   "stratum": "random_active_control",
+   "support_label": "none",
+   "v1": 1,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     1
+    ]
+   ],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": [
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "ai"
+    }
+   ]
+  },
+  {
+   "delta": -1,
+   "id": 1859,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 9→6; support_tooling 10→12; b2b removed",
+   "slug": "observe-ai",
+   "stratum": "support_tagged",
+   "support_label": "vendor",
+   "v1": 22,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     9
+    ],
+    [
+     "support_tooling",
+     10
+    ]
+   ],
+   "v2": 21,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ],
+    [
+     "support_tooling",
+     12
+    ]
+   ],
+   "v2_support": {
+    "class": "vendor",
+    "evidence": [
+     {
+      "field": "tags",
+      "points": 2,
+      "rule": "support_tag",
+      "term": "Customer Service"
+     },
+     {
+      "field": "one_liner",
+      "points": 3,
+      "rule": "product_statement_one_liner",
+      "term": "contact center"
+     },
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "contact center"
+     },
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "customer service"
+     },
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "contact centers"
+     }
+    ],
+    "evidence_points": 11,
+    "rule": "evidence_points>=3 including a product statement"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -1,
+   "id": 29128,
+   "label": "irrelevant",
+   "reasons": "python_ai_engineering 1→0; 1 suppressed",
+   "slug": "olio-labs",
+   "stratum": "incomplete_or_ambiguous",
+   "support_label": "none",
+   "v1": 1,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     1
+    ]
+   ],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": [
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "ai"
+    }
+   ]
+  },
+  {
+   "delta": -1,
+   "id": 21860,
+   "label": "irrelevant",
+   "reasons": "support_tooling 1→0",
+   "slug": "synapticure",
+   "stratum": "hard_negative_support_vocab",
+   "support_label": "uses_vocabulary",
+   "v1": 1,
+   "v1_categories": [
+    [
+     "support_tooling",
+     1
+    ]
+   ],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": -1,
+   "id": 26859,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 4→0; support_tooling 7→10; b2b removed",
+   "slug": "typewise",
+   "stratum": "support_vendor_untagged",
+   "support_label": "vendor",
+   "v1": 19,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ],
+    [
+     "devtools",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     4
+    ],
+    [
+     "support_tooling",
+     7
+    ]
+   ],
+   "v2": 18,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ],
+    [
+     "devtools",
+     3
+    ],
+    [
+     "support_tooling",
+     10
+    ]
+   ],
+   "v2_support": {
+    "class": "vendor",
+    "evidence": [
+     {
+      "field": "one_liner",
+      "points": 3,
+      "rule": "product_statement_one_liner",
+      "term": "customer service"
+     },
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "customer service"
+     }
+    ],
+    "evidence_points": 5,
+    "rule": "evidence_points>=3 including a product statement"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": 0,
+   "id": 22608,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 9→6; support_tooling 9→12; b2b removed",
+   "slug": "cloud-humans",
+   "stratum": "support_tagged",
+   "support_label": "vendor",
+   "v1": 23,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ],
+    [
+     "b2b_infra_saas",
+     9
+    ],
+    [
+     "support_tooling",
+     9
+    ]
+   ],
+   "v2": 23,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ],
+    [
+     "support_tooling",
+     12
+    ]
+   ],
+   "v2_support": {
+    "class": "vendor",
+    "evidence": [
+     {
+      "field": "tags",
+      "points": 2,
+      "rule": "support_tag",
+      "term": "Customer Service"
+     },
+     {
+      "field": "one_liner",
+      "points": 3,
+      "rule": "product_statement_one_liner",
+      "term": "customer service"
+     },
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "customer support"
+     },
+     {
+      "field": "long_description",
+      "points": 2,
+      "rule": "product_statement_description",
+      "term": "support tickets"
+     }
+    ],
+    "evidence_points": 9,
+    "rule": "evidence_points>=3 including a product statement"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": 0,
+   "id": 31261,
+   "label": "irrelevant",
+   "reasons": "",
+   "slug": "control-seat",
+   "stratum": "devtools_infra_ai",
+   "support_label": "none",
+   "v1": 2,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     2
+    ]
+   ],
+   "v2": 2,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     2
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": 0,
+   "id": 30102,
+   "label": "weak",
+   "reasons": "",
+   "slug": "diffusion-studio",
+   "stratum": "random_active_control",
+   "support_label": "none",
+   "v1": 6,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     6
+    ]
+   ],
+   "v2": 6,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": 0,
+   "id": 31204,
+   "label": "irrelevant",
+   "reasons": "",
+   "slug": "forum",
+   "stratum": "incomplete_or_ambiguous",
+   "support_label": "none",
+   "v1": 0,
+   "v1_categories": [],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": 0,
+   "id": 12062,
+   "label": "irrelevant",
+   "reasons": "",
+   "slug": "in-the-room",
+   "stratum": "devtools_infra_ai",
+   "support_label": "none",
+   "v1": 9,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     9
+    ]
+   ],
+   "v2": 9,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     9
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": 0,
+   "id": 30269,
+   "label": "irrelevant",
+   "reasons": "",
+   "slug": "liquid-compute",
+   "stratum": "devtools_infra_ai",
+   "support_label": "none",
+   "v1": 10,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2": 10,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     3
+    ],
+    [
+     "b2b_infra_saas",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": 0,
+   "id": 24269,
+   "label": "irrelevant",
+   "reasons": "",
+   "slug": "monet",
+   "stratum": "random_active_control",
+   "support_label": "none",
+   "v1": 0,
+   "v1_categories": [],
+   "v2": 0,
+   "v2_categories": [],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": 0,
+   "id": 1033,
+   "label": "relevant",
+   "reasons": "b2b_infra_saas 3→0; python_ai_engineering 6→5; support_tooling 6→10; b2b removed; 1 suppressed",
+   "slug": "netomi",
+   "stratum": "support_tagged",
+   "support_label": "vendor",
+   "v1": 16,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     6
+    ],
+    [
+     "b2b_infra_saas",
+     3
+    ],
+    [
+     "support_tooling",
+     6
+    ]
+   ],
+   "v2": 16,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     5
+    ],
+    [
+     "support_tooling",
+     10
+    ]
+   ],
+   "v2_support": {
+    "class": "vendor",
+    "evidence": [
+     {
+      "field": "tags",
+      "points": 2,
+      "rule": "support_tag",
+      "term": "Customer Service"
+     },
+     {
+      "field": "one_liner",
+      "points": 3,
+      "rule": "product_statement_one_liner",
+      "term": "customer care"
+     }
+    ],
+    "evidence_points": 5,
+    "rule": "evidence_points>=3 including a product statement"
+   },
+   "v2_suppressed": [
+    {
+     "field": "long_description",
+     "reason": "generic term in long_description",
+     "term": "artificial intelligence"
+    }
+   ]
+  },
+  {
+   "delta": 0,
+   "id": 30665,
+   "label": "relevant",
+   "reasons": "b2b removed",
+   "slug": "pangolin",
+   "stratum": "devtools_infra_ai",
+   "support_label": "none",
+   "v1": 25,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     6
+    ],
+    [
+     "devtools",
+     6
+    ],
+    [
+     "b2b_infra_saas",
+     12
+    ]
+   ],
+   "v2": 25,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     6
+    ],
+    [
+     "devtools",
+     6
+    ],
+    [
+     "b2b_infra_saas",
+     12
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  },
+  {
+   "delta": 0,
+   "id": 31047,
+   "label": "weak",
+   "reasons": "",
+   "slug": "waddle-labs",
+   "stratum": "devtools_infra_ai",
+   "support_label": "none",
+   "v1": 19,
+   "v1_categories": [
+    [
+     "python_ai_engineering",
+     12
+    ],
+    [
+     "devtools",
+     6
+    ]
+   ],
+   "v2": 19,
+   "v2_categories": [
+    [
+     "python_ai_engineering",
+     12
+    ],
+    [
+     "devtools",
+     6
+    ]
+   ],
+   "v2_support": {
+    "class": "none",
+    "evidence": [],
+    "evidence_points": 0,
+    "rule": "no support evidence"
+   },
+   "v2_suppressed": []
+  }
+ ],
+ "support_tooling": {
+  "rank-v1": {
+   "fn": [
+    "hyperprobe",
+    "brownie",
+    "rootly",
+    "onepatch",
+    "leena-ai"
+   ],
+   "fp": [
+    [
+     "onboard-io",
+     "none"
+    ],
+    [
+     "sigmamind-ai",
+     "generic_agent"
+    ],
+    [
+     "o11",
+     "none"
+    ],
+    [
+     "juzibot",
+     "uses_vocabulary"
+    ],
+    [
+     "community-phone-company",
+     "none"
+    ],
+    [
+     "tough-commerce",
+     "uses_vocabulary"
+    ],
+    [
+     "samora-ai",
+     "generic_agent"
+    ],
+    [
+     "token-transit",
+     "uses_vocabulary"
+    ],
+    [
+     "the-ticket-fairy",
+     "uses_vocabulary"
+    ],
+    [
+     "comena",
+     "uses_vocabulary"
+    ],
+    [
+     "synapticure",
+     "uses_vocabulary"
+    ],
+    [
+     "infiuss-health",
+     "uses_vocabulary"
+    ],
+    [
+     "acrely",
+     "generic_agent"
+    ],
+    [
+     "howdy-com",
+     "uses_vocabulary"
+    ],
+    [
+     "pine-park-health",
+     "uses_vocabulary"
+    ],
+    [
+     "slidely-ai",
+     "uses_vocabulary"
+    ],
+    [
+     "airhelp",
+     "uses_vocabulary"
+    ],
+    [
+     "flint-2",
+     "uses_vocabulary"
+    ],
+    [
+     "dover",
+     "uses_vocabulary"
+    ],
+    [
+     "gusto",
+     "uses_vocabulary"
+    ],
+    [
+     "burnt",
+     "uses_vocabulary"
+    ]
+   ],
+   "label_positive": 14,
+   "predicted_positive": 30,
+   "tp": [
+    "cloud-humans",
+    "hioperator",
+    "unthread",
+    "observe-ai",
+    "clad-labs",
+    "netomi",
+    "letterbook",
+    "giga",
+    "typewise"
+   ]
+  },
+  "rank-v2": {
+   "fn": [
+    "leena-ai"
+   ],
+   "fp": [
+    [
+     "sigmamind-ai",
+     "generic_agent"
+    ]
+   ],
+   "label_positive": 14,
+   "predicted_positive": 14,
+   "tp": [
+    "hyperprobe",
+    "cloud-humans",
+    "hioperator",
+    "unthread",
+    "observe-ai",
+    "clad-labs",
+    "netomi",
+    "letterbook",
+    "brownie",
+    "rootly",
+    "onepatch",
+    "giga",
+    "typewise"
+   ]
+  }
+ }
+}

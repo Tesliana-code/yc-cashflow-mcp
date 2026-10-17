@@ -1,0 +1,158 @@
+{
+ "criteria": {
+  "irrelevant": "matches are incidental; product outside campaign scope",
+  "relevant": "product is developer-facing AI/ML, DevTools, infra, or developer documentation — plausible fit for Python/AI engineering or developer education/writing work",
+  "weak": "keyword fit exists but the product is mainly non-developer, non-Python, or domain-specific; would need human review"
+ },
+ "decisions": {
+  "authzed": [
+   "relevant",
+   "authorization infrastructure / devtools; Python/AI fit is only tag-level ('Data Engineering', 'AI' in one-liner)"
+  ],
+  "baserun": [
+   "relevant",
+   "LLM testing and observability"
+  ],
+  "beam": [
+   "relevant",
+   "cloud platform for running AI inference, sandboxes and agents"
+  ],
+  "byteask": [
+   "weak",
+   "AI coding agent for C/C++; DevTools fit but no Python evidence"
+  ],
+  "clueso": [
+   "weak",
+   "instructional videos/docs for business processes and employee training; 'education' is customer education, not developer education; no Developer Tools tag"
+  ],
+  "dailybot": [
+   "weak",
+   "team coordination/productivity tool; 'infrastructure', 'observability', 'open source' matched in prose, not product category"
+  ],
+  "dedalus-labs": [
+   "relevant",
+   "persistent compute for AI agents; DevOps/infra"
+  ],
+  "dexto": [
+   "relevant",
+   "exposes AI agents as APIs for developers"
+  ],
+  "kernel": [
+   "relevant",
+   "open-source browser infra for AI agents"
+  ],
+  "kestrel-ai": [
+   "relevant",
+   "AI agents for platform engineering; description mentions Python"
+  ],
+  "lamin": [
+   "weak",
+   "open data platform for biotech/pharma R&D; domain-specific"
+  ],
+  "litellm": [
+   "relevant",
+   "open-source Python SDK + FastAPI LLM gateway; strongest Python/AI evidence in the set"
+  ],
+  "mem0": [
+   "relevant",
+   "OSS memory layer for AI agents; devtools + infra tags"
+  ],
+  "mindsdb": [
+   "relevant",
+   "open-source AI/data platform tagged Developer Tools; description is mostly marketing"
+  ],
+  "morph": [
+   "relevant",
+   "inference models for coding agents"
+  ],
+  "parea": [
+   "relevant",
+   "LLM application testing/evaluation/monitoring"
+  ],
+  "promptless": [
+   "relevant",
+   "AI that updates customer-facing docs; strong developer-docs/writing fit"
+  ],
+  "quantstruct": [
+   "relevant",
+   "AI documentation engineer for API & SDK products; strong developer-docs fit"
+  ],
+  "storia-ai": [
+   "relevant",
+   "open-source code copilot for developers"
+  ],
+  "unsloth-ai": [
+   "relevant",
+   "open-source fine-tuning/RL for LLMs"
+  ]
+ },
+ "false_positive_matches": {
+  "clueso": [
+   [
+    "education",
+    "customer education/onboarding, not developer education"
+   ]
+  ],
+  "dailybot": [
+   [
+    "infrastructure",
+    "[quoted source phrase removed] agent API/CLI is a feature of a team-coordination tool, not an infra company"
+   ],
+   [
+    "observability",
+    "'observability layer' for agent progress reporting, not a devtools observability product"
+   ]
+  ],
+  "dexto": [
+   [
+    "customer support",
+    "example use case by customers"
+   ],
+   [
+    "support",
+    "same phrase"
+   ]
+  ],
+  "kernel": [
+   [
+    "support",
+    "[quoted source sentence removed] 'support' used as a generic word about framework compatibility"
+   ]
+  ],
+  "kestrel-ai": [
+   [
+    "support",
+    "[quoted source phrase removed] 'support' used as a generic word about webhook features"
+   ]
+  ],
+  "mem0": [
+   [
+    "customer support",
+    "named as a use case of the product, not a support-tooling company"
+   ],
+   [
+    "support",
+    "same phrase"
+   ]
+  ],
+  "mindsdb": [
+   [
+    "developers",
+    "'700 contributor developers' — community size, not a developer-facing signal by itself"
+   ]
+  ],
+  "promptless": [
+   [
+    "support",
+    "support tickets are an input source, not the product category"
+   ]
+  ],
+  "storia-ai": [
+   [
+    "documentation",
+    "source says answers are 'supported by documentation' — the product reads docs, it is not a docs/education product"
+   ]
+  ]
+ },
+ "reviewer": "Claude Code (claude-opus-5-5), 2026-10-17, judged only from source_fields in rank20-full.txt (full long_description via get_yc_company); no outside knowledge used"
+}
