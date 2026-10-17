@@ -4,12 +4,15 @@ A local, read-only [Model Context Protocol](https://modelcontextprotocol.io) ser
 
 Version 0.2.0. Tested on WSL2 Ubuntu x86_64 only (see [Tested platforms](#tested-platforms)).
 
-## What it is not
+## Built for Technical Prospect Discovery
 
-- **Not a YC API.** The data comes from [yc-oss/api](https://github.com/yc-oss/api), an **unofficial third-party mirror** built from the search index behind YC's public company directory. It is not affiliated with Y Combinator, and YC does not endorse it. The mirror declares no license.
-- **Not a job board.** The source's `isHiring` is a company-level flag, not a vacancy.
-- **Not an eligibility checker.** Hiring eligibility, remote-contractor acceptance, payment terms and contract type are always reported as `unknown`.
-- It uses no logins, cookies, private endpoints or scraping, and it never sends applications or messages. No model is called at runtime.
+YC Cashflow MCP brings Y Combinator company discovery directly into Claude Code and other MCP clients.
+
+Four Rust-powered MCP tools let AI agents search startup profiles, inspect company records, rank prospects with explainable scores, and track data freshness.
+
+The server runs locally, uses deterministic ranking, and keeps source evidence separate from computed results. Every recommendation can be inspected, reproduced, and challenged.
+
+Designed for developers exploring AI tooling, technical markets, and automated research workflows.
 
 ## Tools
 
